@@ -441,10 +441,12 @@ body {
 
 
 /* hubungi kami */
-.send-email {
+.send-email,
+.send-linkContent {
   color: #3db4ff;
 }
-.send-email:hover {
+.send-email:hover,
+.send-linkContent:hover {
   text-decoration: underline;
 }
 
