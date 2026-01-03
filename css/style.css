@@ -309,6 +309,20 @@ body {
 
 
 
+/* BlogStyle */
+.popular-blog {
+  margin-top: 82px;
+}
+.title-blog {
+  font-size: 27px;
+  font-weight: 590;
+  margin-bottom: 19px;
+}
+/* BlogStyleEnd */
+
+
+
+
 /* footerStyle */
 .footer {
     background: #1d1d1d;
@@ -670,6 +684,14 @@ body {
 
   .about-sidebar {
     display: none;
+  }
+
+  /* blogMobileStyle */
+  .title-blog {
+    text-align: center;
+  }
+  .date-blog {
+    margin-top: 14px;
   }
 
 }
