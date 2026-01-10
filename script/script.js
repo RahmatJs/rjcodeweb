@@ -120,4 +120,31 @@ const closeMenu = document.getElementById('btn-close');
 
 
 
+  // copy url otomatis
+  const copyBtn = document.getElementById("copy-url");
+  const originalContent = copyBtn.innerHTML;
+
+  copyBtn.addEventListener('click', ()=> {
+    const url = window.location.href;
+
+    navigator.clipboard.writeText(url).then(() => {
+      copyBtn.innerHTML = '<i class="fa-solid fa-check"></i> Disalin!';
+
+      // warna text berubah saat di bawah 450px
+      if (window.innerWidth < 450) {
+        copyBtn.style.color = "white";
+        copyBtn.style.fontWeight = "600";
+      } else {
+        copyBtn.style.color = "#000";
+        copyBtn.style.fontWeight = "600";
+      };
+
+      setTimeout(() => {
+        copyBtn.innerHTML = originalContent
+      }, 2000);
+    });
+  });
+
+
+
 

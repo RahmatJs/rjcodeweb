@@ -308,6 +308,144 @@ body {
 /* homeStyleEnd
 
 
+/* TagsStyle */
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 200px;
+}
+.title-tags {
+  background: #1d1d1d;
+  color: #fff;
+  padding: 3px 10px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.tag {
+  text-decoration: none;
+  font-size: 12px;
+  color: #000;
+  padding: 2px 9px;
+  border: 1px solid #ddd;
+  /* border-radius: 4px; */
+}
+.tag:hover {
+  background-color: #4DB2EC;
+}
+/* TagsStyleEnd */
+
+
+
+/* shareStyle */
+ .share-link {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 35px;
+  padding: 22px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.box-share {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 1px  solid #ddd;
+  padding: 8px 14px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.box-share i {
+  font-size: 15px;
+}
+/* tanda panah di sharee iconn */
+.share-icon {
+  position: relative;
+}
+.share-icon::after {
+  content: "";
+  position: absolute;
+  right: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 9px;
+  border-style: solid;
+  border-color: transparent transparent transparent #e0e0e0;
+}
+.share-icon::before {
+  content: "";
+  position: absolute;
+  right: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+}
+/* ....*/
+.share-iconshared {
+  color: #444444;
+}
+.title-share {
+  color: #444444;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.divider {
+  width: 1.2px;
+  height: 18px;
+  background: #ddd;
+}
+
+/* share tiktok */
+.apk-share,
+.tiktokshare {
+  color: #000;
+  font-weight: 600;
+  font-size: 13px;
+}
+.tiktokshare:hover {
+  color: #302f2f;
+}
+.tiktok-icon {
+  color: #000000;
+}
+.tiktok-icon::before {
+  text-shadow: 
+    -2px 0 #25F4EE,
+     2px 0 #FE2C55;;
+}
+
+/* share wa */
+.wa-icon {
+  color: #7BBF6A;
+}
+.wa-share {
+  color: #7BBF6A;
+  font-size: 13px;
+}
+.wa-share:hover {
+  color: #7cae70;
+}
+
+/* salin url otomatis */
+.salin-icon {
+  color: #000000;
+  font-weight: 200;
+}
+#copy-url {
+  cursor: pointer;
+} 
+/* shareStyleEnd */
+
+
 
 /* BlogStyle */
 .popular-blog {
@@ -644,12 +782,19 @@ body {
     top: 60px;
     right: 0;
   }
+
+  /* shareeeee */
+  .share-link {
+    justify-content: center;
+  }
+  /* .share-icon {
+    display: none;
+  } */
 }
 
 
 
 /* Mobile */
-/* 576 */
 @media (max-width: 450px) {
   .home-container {
     padding-bottom: 15rem;
@@ -689,6 +834,45 @@ body {
   /* blogMobileStyle */
   .title-blog {
     text-align: center;
+  }
+
+  /* sharee */
+  .share-link {
+    gap: 12px;
+  }
+  .share-icon {
+    display: block;
+  }
+  .box-share span {
+    display: none;
+  }
+  .box-share i {
+    font-size: 20px;
+  }
+  .box-share {
+    padding: 15px;
+  }
+
+  .share-iconshare {
+    color: rgb(156, 155, 155);
+  }
+
+  .box-tiktok {
+    background-color:  #121212;
+  }
+
+  .box-wa {
+    background-color: #7BBF6A;
+  }
+  .wa-icon {
+    color: #fff;
+  }
+
+  #copy-url {
+    background-color: #000;
+  }
+  .salin-icon {
+    color: #fff;
   }
   
 }
