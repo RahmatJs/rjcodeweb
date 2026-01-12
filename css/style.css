@@ -790,6 +790,10 @@ body {
   }
 
 
+  .footer {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
   .footer-row {
     flex-direction: column;
     text-align: center;
@@ -806,6 +810,11 @@ body {
     flex-direction: column-reverse;
     text-align: center;
     gap: 10px;
+    padding: 15px 21px;
+  }
+  .copyright p {
+    width: 100%;
+    margin-top: 10px;
   }
 
 
@@ -863,6 +872,9 @@ body {
     justify-content: center;
   }
 
+  .copyright p {
+    font-size: 11px;
+  }
 
   .about-sidebar {
     display: none;
@@ -912,10 +924,14 @@ body {
     color: #fff;
   }
 
+  /* tagss */
+  .tag {
+    font-size: 11px;
+  }
 
   /* prev next article */
   .prev-nextArticle a {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
   }
 
