@@ -843,7 +843,7 @@ body {
 /* Mobile */
 @media (max-width: 450px) {
   .home-container {
-    padding-bottom: 15rem;
+    padding-bottom: 8rem;
   }
   .post-card {
     display: flex;
