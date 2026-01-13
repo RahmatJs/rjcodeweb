@@ -54,6 +54,25 @@ const closeMenu = document.getElementById('btn-close');
     }
   });
 
+
+// efek hover biru pada navigation a mengikuti scroll navbar
+  const navigation = document.querySelectorAll('.navbar-nav a');
+
+  navigation.forEach(link => {
+      window.addEventListener("scroll", function () {
+    if (window.innerWidth > 768) {
+      if (window.scrollY > 50) {
+        link.style.paddingTop = "0";
+        link.style.paddingBottom = "0";
+      }else {
+        link.style.paddingTop = "14px";
+        link.style.paddingBottom = "14px";
+      }
+    }
+  });
+  });
+
+
   
 
 
