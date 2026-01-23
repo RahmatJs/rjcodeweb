@@ -1,36 +1,52 @@
-const navbarNav = document.querySelector('.navbar-nav');
+const navbarNavRespon = document.querySelector('.navbar-respon');
 const tblMenu = document.getElementById('menu');
 const closeMenu = document.getElementById('btn-close');
+const content = document.getElementById('content');
 
+// // memunculkan navbar saat click tombol menu
 
-// memunculkan navbar saat click tombol menu
-  tblMenu.addEventListener("click", () => {
-    navbarNav.classList.add("active");
-    // saat tampilan navbar aktiv layar belakang tidak bisa di scroll
-    document.body.classList.add('no-scroll');
-  });
-// menghilangkan navbar dengan tombol X
-  closeMenu.addEventListener("click", () => {
-    navbarNav.classList.remove("active");
-    // saat navbar hilang layar bisa di scroll semula
-    document.body.classList.remove('no-scroll');
-  });
+tblMenu.addEventListener("click", () => {
+  navbarNavRespon.classList.add("active");
+  navbarNavRespon.classList.remove("hide");
+  // content di belakang mengecil saat navbar muncul
+  content.classList.add("main");
+  // navbar active no scroll 
+  document.body.classList.add('no-scroll');
+});
+// menghilangkn navbar respon dengan tombol X
+closeMenu.addEventListener("click", () => {
+  navbarNavRespon.classList.remove("active");
+  navbarNavRespon.classList.add("hide");
+  // content di belakang mengecil saat navbar muncul
+  content.classList.remove("main");
+// saat navbar hilang layar bisa di scroll semula
+document.body.classList.remove('no-scroll');
+});
+
+// dropdown ditur
+const iconRight = document.getElementById('icon-right');
+const mainDown = document.getElementById('dropdown-menu');
+
+iconRight.addEventListener("click", () => {
+  mainDown.classList.toggle("drop");
+
+  if (mainDown.classList.contains("drop")) {
+    iconRight.classList.remove("fa-chevron-right");
+    iconRight.classList.add("fa-chevron-down");
+  } else {
+    iconRight.classList.remove("fa-chevron-down");
+    iconRight.classList.add("fa-chevron-right");
+  }
+});
 
 
 
 
     // btn search error
   const btnSearch = document.getElementById('btn-search');
-  const errorSearch = document.querySelector('.error-search')
-
+  // const errorSearch = document.querySelector('.error-search')
   btnSearch.addEventListener("click", () => {
-    errorSearch.classList.add("active");
-
-    document.addEventListener('click',function(e) {
-      if(!btnSearch.contains(e.target) && !errorSearch.contains(e.target)) {
-        errorSearch.classList.remove("active");
-      }
-    });
+    window.location.href = '../404/404.html';
   });
 
 
@@ -62,8 +78,8 @@ const closeMenu = document.getElementById('btn-close');
       window.addEventListener("scroll", function () {
     if (window.innerWidth > 768) {
       if (window.scrollY > 50) {
-        link.style.paddingTop = "0";
-        link.style.paddingBottom = "0";
+        link.style.paddingTop = "7px";
+        link.style.paddingBottom = "7px";
       }else {
         link.style.paddingTop = "14px";
         link.style.paddingBottom = "14px";
@@ -71,10 +87,7 @@ const closeMenu = document.getElementById('btn-close');
     }
   });
   });
-
-
   
-
 
   // logo mengecil saat di scroll
   const logoMini = document.querySelector('.nav-logo');
@@ -92,13 +105,6 @@ const closeMenu = document.getElementById('btn-close');
         logoMini.classList.remove("shrink");
       }
   });
-
-
-  // alert ("Website Masih Dalam Pengembangan");
-    setTimeout(() => {
-    document.getElementById("alertDev").style.display = "none";
-  }, 3000);
-
 
 
   // button download posting timer
