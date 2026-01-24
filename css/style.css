@@ -449,7 +449,7 @@ body {
 .tags-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 5px;
   align-items: center;
   font-family: 'Poppins', sans-serif;
   margin-top: 200px;
@@ -765,7 +765,7 @@ body {
 /* media queris about */
 @media (max-width: 450px) {
   .about-content p {
-    font-size: 14.5px;
+    font-size: 15px;
   }
 }
 /* aboutStyleEnd */

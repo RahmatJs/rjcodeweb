@@ -106,6 +106,31 @@ iconRight.addEventListener("click", () => {
       }
   });
 
+    // copy url otomatis
+  const copyBtn = document.getElementById("copy-url");
+  const originalContent = copyBtn.innerHTML;
+
+  copyBtn.addEventListener('click', ()=> {
+    const url = window.location.href;
+
+    navigator.clipboard.writeText(url).then(() => {
+      copyBtn.innerHTML = '<i class="fa-solid fa-check"></i> Disalin!';
+
+      // warna text berubah saat di bawah 450px
+      if (window.innerWidth < 450) {
+        copyBtn.style.color = "white";
+        copyBtn.style.fontWeight = "600";
+      } else {
+        copyBtn.style.color = "#000";
+        copyBtn.style.fontWeight = "600";
+      };
+
+      setTimeout(() => {
+        copyBtn.innerHTML = originalContent
+      }, 2000);
+    });
+  });
+
 
   // button download posting timer
   const btnDwnd = document.getElementById('btn-download');
@@ -141,33 +166,6 @@ iconRight.addEventListener("click", () => {
         text.innerHTML = "Download Dimulai";
       }
     }, 1000);
-  });
-
-
-
-  // copy url otomatis
-  const copyBtn = document.getElementById("copy-url");
-  const originalContent = copyBtn.innerHTML;
-
-  copyBtn.addEventListener('click', ()=> {
-    const url = window.location.href;
-
-    navigator.clipboard.writeText(url).then(() => {
-      copyBtn.innerHTML = '<i class="fa-solid fa-check"></i> Disalin!';
-
-      // warna text berubah saat di bawah 450px
-      if (window.innerWidth < 450) {
-        copyBtn.style.color = "white";
-        copyBtn.style.fontWeight = "600";
-      } else {
-        copyBtn.style.color = "#000";
-        copyBtn.style.fontWeight = "600";
-      };
-
-      setTimeout(() => {
-        copyBtn.innerHTML = originalContent
-      }, 2000);
-    });
   });
 
 
