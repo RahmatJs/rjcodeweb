@@ -39,15 +39,33 @@ iconRight.addEventListener("click", () => {
   }
 });
 
+// memunculkan category
+const iconCategory = document.getElementById("icn-categoryMbl");
+const btnCloseCategory = document.getElementById("btn-closeCategory");
+const categoryMbl = document.querySelector(".category-respon");
+
+iconCategory.addEventListener("click", () => {
+  categoryMbl.classList.add("cMbl");
+  categoryMbl.classList.remove("cHide");
+  document.body.classList.add('no-scroll');
+  content.classList.add("main");
+});
+// menghilangkan kategori dengan btn close ctegory
+btnCloseCategory.addEventListener("click", () => {
+  categoryMbl.classList.remove("cMbl");
+  categoryMbl.classList.add("cHide");
+  document.body.classList.remove('no-scroll');
+  content.classList.remove("main");
+});
+
 
 
 
     // btn search error
-  const btnSearch = document.getElementById('btn-search');
-  // const errorSearch = document.querySelector('.error-search')
-  btnSearch.addEventListener("click", () => {
-    window.location.href = '../404/404.html';
-  });
+  // const btnSearch = document.getElementById('btn-search');
+  // btnSearch.addEventListener("click", () => {
+  //   window.location.href = '../404/404.html';
+  // });
 
 
 
