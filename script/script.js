@@ -39,7 +39,34 @@ iconRight.addEventListener("click", () => {
   }
 });
 
-// memunculkan category
+// memunculkan category desktop 
+const iconCategoryDesk = document.getElementById("icn-categoryDesk");
+const categoryDesk = document.querySelector(".category-desk");
+const btnCloseCategoryDesk = document.getElementById("btn-closeCategoryDesk")
+
+iconCategoryDesk.addEventListener("click", () => {
+  categoryDesk.classList.add("cdesk");
+  categoryDesk.classList.remove("cdeskhide");
+  document.body.classList.add('no-scroll');
+});
+btnCloseCategoryDesk.addEventListener("click", () => {
+  categoryDesk.classList.remove("cdesk");
+  categoryDesk.classList.add("cdeskhide");
+  document.body.classList.remove('no-scroll');
+});
+
+// efek hover category desktop
+const buble = document.getElementById("buble");
+
+iconCategoryDesk.addEventListener("mouseover", () => {
+  buble.classList.add("enter");
+});
+iconCategoryDesk.addEventListener("mouseout", () => {
+  buble.classList.remove("enter");
+});
+
+
+// memunculkan category mobile
 const iconCategory = document.getElementById("icn-categoryMbl");
 const btnCloseCategory = document.getElementById("btn-closeCategory");
 const categoryMbl = document.querySelector(".category-respon");
