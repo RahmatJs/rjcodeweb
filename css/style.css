@@ -94,6 +94,10 @@ body {
   backdrop-filter: blur(1.5px);
   -webkit-backdrop-filter: blur(5px);
 }
+/* navbar ke atas saat scroll di mobile */
+.navbar.navHide {
+  transform: translateY(-100%);
+}
 .nav-logo {
     font-size: 35px;
     font-weight: 700;

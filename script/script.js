@@ -115,6 +115,23 @@ btnCloseCategory.addEventListener("click", () => {
     }
   });
 
+  // navbar hide mobile 450px
+  let lastScroll = 0
+
+  window.addEventListener("scroll", () => {
+    if (window.innerWidth > 768) return;
+
+    const currentScroll = window.pageYOffset;
+
+    if (currentScroll > lastScroll && currentScroll > 100) {
+      navbar.classList.add("navHide");
+    } if (lastScroll - currentScroll > 8) {
+      navbar.classList.remove("navHide");
+    }
+
+    lastScroll = currentScroll
+  });
+
 
 // efek hover biru pada navigation a mengikuti scroll navbar
   const navigation = document.querySelectorAll('.navbar-nav a');
