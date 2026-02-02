@@ -1352,6 +1352,9 @@ body {
   /* blogMobileStyle */
   .title-blog {
     text-align: center;
+    margin-top: 20px;
+    font-family: 'Inter', system-ui, sans-serif;
+    margin-bottom: 30px;
   }
 
   /* sharee */
