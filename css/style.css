@@ -494,7 +494,8 @@ body {
   margin-bottom: 12px;
 }
 
-#icon-right {
+#icon-right,
+#icon-rightHtml {
   font-size: 15px !important;
   color: #fff;
   position: absolute;

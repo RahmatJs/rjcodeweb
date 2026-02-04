@@ -4,7 +4,6 @@ const closeMenu = document.getElementById('btn-close');
 const content = document.getElementById('content');
 
 // // memunculkan navbar saat click tombol menu
-
 tblMenu.addEventListener("click", () => {
   navbarNavRespon.classList.add("active");
   navbarNavRespon.classList.remove("hide");
@@ -23,7 +22,7 @@ closeMenu.addEventListener("click", () => {
 document.body.classList.remove('no-scroll');
 });
 
-// dropdown ditur
+// dropdown mobile ditur(javascript)
 const iconRight = document.getElementById('icon-right');
 const mainDown = document.getElementById('dropdown-menu');
 
@@ -36,6 +35,21 @@ iconRight.addEventListener("click", () => {
   } else {
     iconRight.classList.remove("fa-chevron-down");
     iconRight.classList.add("fa-chevron-right");
+  }
+});
+// dropdown mobile ditur(html css)
+const iconRightHtml = document.getElementById('icon-rightHtml');
+const mainDownHtml = document.getElementById('dropdown-menuHtml');
+
+iconRightHtml.addEventListener("click", () => {
+  mainDownHtml.classList.toggle("drop");
+
+  if (mainDownHtml.classList.contains("drop")) {
+    iconRightHtml.classList.remove("fa-chevron-right");
+    iconRightHtml.classList.add("fa-chevron-down");
+  } else {
+    iconRightHtml.classList.remove("fa-chevron-down");
+    iconRightHtml.classList.add("fa-chevron-right");
   }
 });
 
