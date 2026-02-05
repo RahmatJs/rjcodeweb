@@ -600,6 +600,55 @@ body {
   font-size: 11px;
   color: #777;
 }
+/* page index */
+.page-list {
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+.page {
+  display: flex;
+  gap: 10px;
+}
+.page a {
+  font-size: 14px;
+  border: 1px solid #ddd;
+  padding: 5px 14px;
+  color: #666666;
+}
+#page1 {
+  background: #4DB2EC;
+  color: #ffffff;
+}
+.page a:hover {
+  background: #414040;
+  color: #fff;
+}
+.page-text {
+  color: #666666;
+  font-size: 12.5px;
+}
+
+@media (max-width: 768px) {
+  .page-text {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .page {
+    margin: 0 auto;
+  }
+  #page1 {
+    padding: 5px 15px;
+    font-size: 15px;
+    color: #000;
+    background: none;
+  }
+}
+/* page indexEnd */
+
 
 /* sidebarKananHome */
 .follow-box,
@@ -1313,7 +1362,7 @@ body {
 /* Mobile 450px */
 @media (max-width: 450px) {
   .home-container {
-    padding-bottom: 8rem;
+    padding-bottom: 2.5rem;
   }
   .post-card {
     display: flex;
