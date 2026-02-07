@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Mempelajari cara membuat form login dan register modern tanpa hyperlink menggunakan Html Css, dan JavaScript. Tampil lebih interaktif, responsif, dan profesional dengan satu halaman tanpa reload.">
+    <meta name="keywords" content="form login modern, form register javascript, login dan signup tanpa hyperlink, form login tanpa reload, javascript form interaktif, form login satu halaman, ui login modern, web development javascript, tutorial form login,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="RJ Code">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- boxicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Membuat Form Login & Register Modern Tanpa Hyperlink</title>
+</head>
+<body>
+    <!-- navbarStart -->
+        <nav class="navbar" id="navbar">
+            <i class="fa-solid fa-bars hamburger-icon" id="menu"></i>
+        <a href="../index.html" class="nav-logo">RjCode</a>
+
+        <div class="navbar-nav">
+            <a href="../index.html">BERANDA</a>
+            <a href="../blog/blog.html">BLOG</a>
+            
+            <li class="dropdown-desk">
+              <a href="../navbardropdownMain/nav-htmlcss.html">HTML & CSS</a>
+              <i class="fa-solid fa-caret-down" id="icon-downDesk"></i>
+              <ul class="dropdownMenu-desk" id="dropdownMenu-desk">
+                <li><a href="../404/404.html" id="drop-item">Testt</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown-desk">
+              <a href="../navbardropdownMain/nav-javascript.html">JAVASCRIPT</a>
+              <i class="fa-solid fa-caret-down" id="icon-downDesk"></i>
+              <ul class="dropdownMenu-desk" id="dropdownMenu-desk">
+                <li><a href="../404/404.html" id="drop-item">Image Slider</a></li>
+              </ul>
+            </li>
+            
+            <a href="../hubungikami/hubungikami.html">HUBUNGI KAMI</a>
+        </div>
+
+        <div class="category-boxDesk">
+          <i class="fa-solid fa-layer-group" id="icn-categoryDesk"></i>
+          <p class="buble left" id="buble">Categories</p> 
+         </div>
+
+         <i class="fa-solid fa-layer-group" id="icn-categoryMbl"></i>
+
+     </nav>
+
+      <nav class="navbar-respon">
+
+      <div class="close-btn">
+        <i class="fa-solid fa-xmark" id="btn-close"></i>
+      </div>
+
+      <div class="navbar-nav2">
+
+        <div class="dropdown-nav">
+          <a href="../index.html">Beranda</a>
+        </div>
+
+        <div class="dropdown-nav">
+          <a href="../blog/blog.html">Blog</a>
+        </div>
+
+        <div class="dropdown-nav">
+          <a href="../navbardropdownMain/nav-htmlcss.html" class="main-drop">HTML & CSS</a>
+          <i class="fa-solid fa-chevron-right" id="icon-rightHtml"></i>
+          <ul class="dropdown-menu" id="dropdown-menuHtml">
+            <li><a href="404/404.html">Testt</a></li>
+          </ul>
+        </div>
+
+        <div class="dropdown-nav">
+          <a href="../navbardropdownMain/nav-javascript.html" class="main-drop">JavaScript</a>
+          <i class="fa-solid fa-chevron-right" id="icon-right"></i>
+          <ul class="dropdown-menu" id="dropdown-menu">
+            <li><a href="../404/404.html">Image Slider</a></li>
+          </ul>
+        </div>
+
+         <div class="dropdown-nav">
+          <a href="../hubungikami/hubungikami.html">Hubungi Kami</a>
+        </div>
+
+      </div>
+
+      </nav>
+
+        <nav class="category-respon">
+        <h1>Categories</h1>
+
+         <i class="fa-solid fa-xmark" id="btn-closeCategory"></i>
+
+      <div class="main-category">
+
+        <div class="category-content">
+          <a href="../navbardropdownMain/nav-htmlcss.html">Html & Css</a>
+          <span>1</span>
+        </div>
+
+        <div class="category-content">
+          <a href="../navbardropdownMain/nav-javascript.html">Java Script</a>
+          <span>6</span>
+        </div>
+
+      </div>
+
+      </nav>
+
+        <nav class="category-desk">
+        <h1>Categories</h1>
+
+         <i class="fa-solid fa-xmark" id="btn-closeCategoryDesk"></i>
+
+      <div class="main-categoryDesk">
+
+        <div class="category-contentDesk">
+          <a href="../navbardropdownMain/nav-htmlcss.html">Html & Css</a>
+          <span>1</span>
+        </div>
+
+        <div class="category-contentDesk">
+          <a href="../navbardropdownMain/nav-javascript.html">Java Script</a>
+          <span>6</span>
+        </div>
+
+      </div>
+
+      </nav>
+     <!-- navbarEnd -->
+
+     <div class="content" id="content">
+    <!-- sectionAbout -->
+    <section class="hero" id="about">
+        <div class="about-container">
+
+            <!-- breadcrumb -->
+             <div class="breadcrumb">
+                <a href="../index.html">Beranda</a>  <span>›</span>  <span>Membuat Form Login & Register Modern Tanpa Hyperlink Menggunakan HTML, CSS, & JavaScript</span>
+             </div>
+            <div class="posting-layout">
+                <!-- kiri -->
+                <div class="about-content">
+                     <h2 class="title-about">Membuat Form Login & Register Modern Tanpa Hyperlink Menggunakan HTML, CSS, & JavaScript</h2>
+                    <div class="posting-date">
+                        <span class="post-date">February 07, 2026</span>
+                    </div>
+
+                    <div class="posting-image">
+                        <img src="../image/formlogin.png" alt="Tutorial Membuat Form Login & Register Modern Tanpa Hyperlink">
+                    </div>
+
+                    <p>Saat ini, user sudah terbiasa dengan tampilan website yang cepat dan responsif. Mereka tidak ingin menunggu halaman berpindah hanya untuk berpindah dari login ke register.</p>
+
+                    <p>Ketika sebuah website mampu menampilkan <b>form login dan signup</b> dalam satu halaman dengan animasi yang halus, kesan pertama yang muncul adalah profesional dan modern. Inilah alasan kenapa teknik ini sangat penting untuk dipelajari, terutama bagi kamu yang ingin membangun UI website yang terlihat serius dan matang.</p>
+
+                    <p>Form login dan register bukan sekadar input email dan password. Ia adalah titik awal interaksi antara user dan sistem. Jika pengalaman pertama ini terasa lambat atau membingungkan, user bisa langsung pergi tanpa berpikir dua kali.</p>
+
+                    <p>Melalui pendekatan tanpa hyperlink, kita menciptakan alur interaksi yang lebih natural, di mana user cukup melakukan klik dan langsung mendapatkan respon visual dari sistem tanpa perlu berpindah halaman.</p>
+
+                    <h3 style="font-size: 20px;">Penjelasan</h3>
+                    <br>
+
+                    <p>Pada dasarnya, form login dan register modern bekerja dengan konsep satu halaman, dua tampilan. Kedua form tetap berada di dalam satu struktur HTML, tetapi hanya satu yang aktif dan terlihat oleh user pada satu waktu. Pendekatan ini membuat struktur halaman lebih efisien, karena browser tidak perlu memuat ulang halaman atau aset tambahan.</p>
+
+                    <p>JavaScript berperan sebagai pengendali utama interaksi. Saat user menekan tombol <b>Sign Up,</b> JavaScript akan mendeteksi aksi tersebut lalu mengubah kondisi tampilan form.</p>
+
+                    <p>Alih-alih membuka link baru, sistem hanya mengganti status form—misalnya dengan menambahkan class tertentu yang menandakan form register aktif dan menyembunyikan form login.</p>
+
+                    <p>Di sisi visual, CSS berperan besar dalam menciptakan kesan modern. Perpindahan form tidak dibuat secara instan, melainkan diberi transisi seperti perubahan opacity, pergeseran posisi, atau efek fade. Efek kecil ini sangat berpengaruh pada persepsi user karena transisi yang halus membuat website terasa lebih hidup dan tidak kaku.</p>
+
+                    <h3 style="font-size: 20px;">Manfaat Yang Di Dapat</h3>
+                    <br>
+                    <p>Dengan menggunakan form login dan register tanpa hyperlink, pengalaman user menjadi jauh lebih baik. User tidak perlu menunggu halaman berpindah atau mengingat kembali apa yang baru saja mereka lihat. Semua terasa cepat, intuitif, dan mengalir.</p>
+
+                    <div class="posting-image">
+                        <img src="../image/klippImg/klip form login.jpg" alt="Tutorial Membuat Form Login & Register Modern Tanpa Hyperlink">
+                    </div>
+
+                    <p>Dari sisi pengembangan, sistem ini juga lebih fleksibel. Developer dapat dengan mudah menambahkan validasi real-time, pesan error dinamis, atau animasi tambahan tanpa harus memikirkan perpindahan halaman.</p>
+
+                    <h3 style="font-size: 20px;">Cara Kerja</h3>
+                    <br>
+
+                    <p>Saat halaman pertama kali dimuat, form login berada dalam kondisi aktif. Ketika tombol signup ditekan, event click akan diproses oleh JavaScript. JavaScript kemudian mengatur class pada masing-masing form untuk menentukan mana yang ditampilkan dan mana yang disembunyikan.</p>
+
+                    <p>CSS menangani bagian visual seperti transisi dan animasi, sehingga perubahan tampilan terasa halus dan profesional. Dengan pembagian tugas seperti ini, kode menjadi lebih rapi: JavaScript fokus pada logika, sedangkan CSS fokus pada tampilan.</p>
+
+                   <h3 style="font-size: 20px;">Kesimpulan</h3>
+                   <br>
+                   <p>Membuat form login dan register modern tidak selalu membutuhkan framework besar atau struktur yang rumit.</p>
+
+                   <p>Dengan memahami dasar manipulasi DOM dan memanfaatkan CSS transition, kita sudah bisa menciptakan interaksi yang nyaman dan terlihat profesional. Teknik ini membuktikan bahwa detail kecil dalam UI bisa memberikan dampak besar pada pengalaman user.</p>
+
+                   <h3 style="font-size: 20px;">Penutup</h3>
+                   <br>
+                   <p>Form login adalah kesan pertama sebuah website. Jika tampilannya modern dan interaksinya halus, user akan merasa lebih percaya dan nyaman.</p>
+
+                   <p>Terus eksplorasi teknik seperti ini, kembangkan animasinya, dan jadikan form login modern sebagai fondasi untuk project-project web kamu selanjutnya.</p>
+
+                   <p>Itulah pembahasan lengkap mengenai <b>Form Login & Register Modern</b> di <b>RJ Code. </b>Semoga artikel ini membantu kamu memahami konsep dasar pembangunan sebuah website dengan lebih sederhana dan praktis.</p>
+
+                   <p>Pantau terus RJ Code untuk article menarik lainnya yang tidak hanya keren secara tampilan, tapi juga kuat secara konsep 🚀</p>
+
+                   <p><b>RJ Code – Belajar Coding dari Nol, Step by Step 💻🔥</b></p>
+
+                   <p>Anda dapat mengunduh kode sumber untuk proyek <b>Simple Landing Page Modern</b> ini dengan mengklik tombol <i>“Unduh”</i>.</p>
+
+                   <div class="btndownload-code">
+                    <button id="btn-download" data-file="/linkposting/formLoginRegister.zip">Unduh File Code</button>
+                   </div>
+
+                   <p id="textdownload" style="display: none;">Unduhan Anda akan dimulai dalam <span id="seconds">5</span> Detik</p>
+
+                   <!-- tagss -->
+                    <div class="tags-container">
+                        <span class="title-tags">Tags</span>
+
+                        <a href="#" class="tag">HTML CSS</a>
+                        <a href="#" class="tag">Html</a>
+                        <a href="#" class="tag">css</a>
+                        <a href="#" class="tag">FormLogin</a>
+                        <a href="#" class="tag">FormRegister</a>
+                        <a href="#" class="tag">WebDesign</a>
+                        <a href="#" class="tag">FrontendDeveloper</a>
+                        <a href="#" class="tag">WebsiteModern</a>
+                        <a href="#" class="tag">UILogin</a>
+
+                    </div>
+
+                    <!-- shareSosmed and url link -->
+                     <div class="share-link">
+
+                        <div class="box-share share-icon">
+                            <i class="fa-solid fa-share-nodes share-iconshare"></i>
+                             <span class="divider"></span>
+                            <span class="title-share">Bagikan</span>
+                        </div>
+
+
+                        <!-- <a href="https://www.tiktok.com/share?url=https:https://rjcodeweb.netlify.app/posting/showhidepw" class="box-share box-tiktok" aria-label="Bagikan Ke TikTok" target="_blank">
+                            <i class="fa-brands fa-tiktok tiktok-icon"></i>
+                             <span class="divider"></span>
+                            <span class="apk-share tiktokshare">TikTok</span> 
+                        </a> -->
+
+
+                        <a href="https://wa.me/?text=Halo%20aku%20lagi%20baca%20artikel%20menarik%20di%20RJ%20Code:%20https:https://rjcodeweb.netlify.app/posting/formloginhplink" target="_blank" class="box-share box-wa" aria-label="Bagikan Ke WhatsApp">
+                            <i class="fa-brands fa-whatsapp wa-icon"></i>
+                             <span class="divider"></span>
+                            <span class="apk-share wa-share">WhatsApp</span> 
+                        </a>
+
+                        <button class="box-share" id="copy-url">
+                             <i class="fa-solid fa-link salin-icon"></i>
+                             <span class="divider"></span>
+                            <span class="apk-share">Salin Url</span> 
+                        </button>
+
+                     </div>
+
+
+                       <!-- prev and nex article -->
+                      <div class="prev-nextArticle">
+
+                        <div class="prev-article">
+                            <span id="prev-text">Previous article</span>
+                            <a href="../posting/simplelandingpage.html" id="prev-text">Simple Landing Page Modern in HTML & CSS</a>
+                        </div>
+
+                        <div class="next-article">
+                            <span id="next-text">Next article</span>
+                            <a id="next-text">--</a>
+                        </div>
+
+                      </div>
+
+                 </div>
+
+                 <!-- kanan -->
+                 <aside class="about-sidebar">
+                   <h3 class="aboutsidebar-title">Terbaru</h3>
+
+                   <a href="../posting/simplelandingpage.html" class="popular-item">
+                        <img src="../image/landingpagemodern.png" alt="Tutorial Simple Landing Page Modern untuk pemula">
+                        <div class="popular-info">
+                            <h4>Simple Landing Page Modern in Html & Css</h4>
+                            <span class="pop-date">February 04, 2026</span>
+                        </div>
+                    </a>
+
+                   <a href="../posting/passwordchacker.html" class="popular-item">
+                       <img src="../image/passwordchacker.png" alt="Tutorial Password Chacker untuk pemula">
+                       <div class="popular-info">
+                           <h4>Password Checker in JavaScript</h4>
+                           <span class="pop-date">February 02, 2026</span>
+                       </div>
+                   </a>
+                   
+                   <a href="../posting/smartformvalidator.html" class="popular-item">
+                       <img src="../image/smartvalidator.png" alt="Tutorial Smart Form Validator untuk pemula">
+                       <div class="popular-info">
+                           <h4>Smart Form Validator in JavaScript</h4>
+                           <span class="pop-date">January 28, 2026</span>
+                       </div>
+                   </a>
+                   
+                   <a href="../posting/dropdownnavbar.html" class="popular-item">
+                       <img src="../image/dropdownnavbar.png" alt="Tutorial Dropdown Navbar untuk pemula">
+                       <div class="popular-info">
+                           <h4>Dropdown Navbar in HTML, CSS & JavaScript</h4>
+                           <span class="pop-date">January 13, 2026</span>
+                       </div>
+                      </a>
+                      
+                      <a href="../posting/kalkulatorpersen.html" class="popular-item">
+                          <img src="../image/kalkulatorpersen.png" alt="Tutorial Kalkulator Persen untuk pemula">
+                          <div class="popular-info">
+                              <h4>Kalkulator Persen in HTML, CSS & JavaScript</h4>
+                              <span class="pop-date">January 7, 2026</span>
+                          </div>
+                      </a>
+
+                      <a href="../posting/imageslider.html" class="popular-item">
+                          <img src="../image/imageslider.png" alt="Tutorial Image Slider untuk pemula">
+                          <div class="popular-info">
+                              <h4>Image Slider in HTML, CSS & JavaScript</h4>
+                              <span class="pop-date">December 31, 2025</span>
+                          </div>
+                      </a>
+
+                    <!-- <a href="../posting/showhidepw.html" class="popular-item">
+                        <img src="../image/showhidepw.png" alt="Tutorial Show Hide Password untuk pemula">
+                        <div class="popular-info">
+                            <h4>Show Hide Password in HTML, CSS & JavaScript</h4>
+                            <span class="pop-date">December 25, 2025</span>
+                        </div>
+                      </a> -->
+
+                 </aside>
+
+
+            </div>
+         </div>
+    </section>
+    <!-- sectionAboutEnd -->
+
+    <!-- footerStart -->
+     <footer class="footer">
+        <div class="footer-row">
+
+            <!-- logo -->
+            <div class="footer-logo">
+            <a href="../index.html" class="nav-logo">RjCode</a>
+            </div>
+            
+             <!-- about -->
+              <div class="footer-section about">
+                <h2>TENTANG KAMI</h2>
+                <p>RjCode adalah blog yang didedikasikan untuk menyediakan konten yang berharga dan informatif tentang teknologi pengembangan web seperti HTML, CSS, JavaScript, dan PHP...
+                <a href="../about us/about.html">Selengkapnya</a></p>
+              </div>
+
+              <!-- footerfollow -->
+               <div class="footer-section follow">
+                <h2>IKUTI KAMI</h2>
+                <div class="social-icons">
+                    <a href="https://www.tiktok.com/@rjcode02?is_from_webapp=1&sender_device=pc" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+               </div>
+        </div>
+     </footer>
+     <!-- footerEnd -->
+
+     <!-- copyrightStart -->
+      <div class="copyright">
+            <p>Copyright © 2026 <span>RJCode</span> All Rights Reserved</p>
+
+            <div class="copyright-links">
+                <a href="../about us/about.html">Tentang Kami</a>
+                <a href="../syarat&ketentuan/syaratketentuan.html">Syarat & Ketentuan</a>
+                <a href="../kebijakanprivasi/kebijakanprivasi.html">Kebijakan Privasi</a>
+                <a href="../hubungikami/hubungikami.html">Hubungi Kami</a>
+            </div>
+      </div>
+     <!-- copyrightEnd -->
+     </div>
+    
+     <script src="../script/script.js"></script>
+</body>
+</html>

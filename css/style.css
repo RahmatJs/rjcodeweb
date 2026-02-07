@@ -600,13 +600,16 @@ body {
   font-size: 11px;
   color: #777;
 }
+
 /* page index */
 .page-list {
-  /* border: 1px solid; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 55px;
+}
+.page-listMobile {
+  display: none;
 }
 .page {
   display: flex;
@@ -618,7 +621,8 @@ body {
   padding: 5px 14px;
   color: #666666;
 }
-#page1 {
+#page1,
+#page2 {
   background: #4DB2EC;
   color: #ffffff;
 }
@@ -637,17 +641,35 @@ body {
   }
 }
 @media (max-width: 450px) {
-  .page {
-    margin: 0 auto;
+  .page-list {
+    display: none;
   }
-  #page1 {
-    padding: 5px 15px;
+  .page-listMobile {
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .page-mobile {
+    display: flex;
+    gap: 4px;
+  }
+  .page-mobile a {
     font-size: 15px;
+    padding: 5px 15px;
     color: #000;
-    background: none;
   }
-}
-/* page indexEnd */
+  #page1Mbl,
+  #page2Mbl {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border: 1px solid #ddd;
+    color: #000;
+  }
+
+} 
+/* page indexEnd
 
 
 /* sidebarKananHome */
