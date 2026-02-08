@@ -677,6 +677,28 @@ body {
 .popular-box {
   margin-bottom: 40px;
 }
+.popular-box {
+  position: relative;
+  overflow: hidden;
+}
+.popular-box1 {
+  transition: opacity 0.3s ease-in-out;
+}
+.popular-box1.popOpac1 {
+  opacity: 0;
+  pointer-events: none;
+}
+.popular-box2 {
+  pointer-events: none;
+  position: absolute;
+  top: 14%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.popular-box2.popOpac2 {
+  opacity: 1;
+  pointer-events: auto;
+}
 /* sidebarFollow */
 .follow-grid {
   display: flex;
@@ -745,6 +767,25 @@ body {
   font-size: 11px;
   color: #777;
 }
+
+/* PREV NEXT POPULAR */
+.prevnext-icon {
+  display: flex;
+  gap: 10px;
+}
+.prevnext-icon i {
+  font-size: 15px;
+  color: #666666;
+  border: 1px solid #ddd;
+  padding: 5px 12px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.prevnext-icon i:hover {
+  background-color: #414040;
+  color: #fff;
+}
+/* PREV NEXT POPULAR END */
 /* homeStyleEnd
 
 

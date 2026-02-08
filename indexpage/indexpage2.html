@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- analytics goegle --> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EY0W39B61E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EY0W39B61E');
+</script>
+  <!-- analytics goegle -->
     <meta charset="UTF-8">
     <meta name="description" content="RJ Code adalah website edukasi untuk belajar web development, HTML, CSS, dan JavaScript dengan penjelasan mudah dan praktis.">
     <meta name="keywords" content="belajar web development, belajar html, belajar css, belajar javascript, tutorial web, rj code">
@@ -102,7 +112,7 @@
 
         <div class="category-content">
           <a href="../navbardropdownMain/nav-htmlcss.html">Html & Css</a>
-          <span>1</span>
+          <span>2</span>
         </div>
 
         <div class="category-content">
@@ -123,7 +133,7 @@
 
         <div class="category-contentDesk">
           <a href="../navbardropdownMain/nav-htmlcss.html">Html & Css</a>
-          <span>1</span>
+          <span>2</span>
         </div>
 
         <div class="category-contentDesk">
@@ -216,6 +226,8 @@
       <div class="popular-box">
          <div class="section-title"><span>Paling Popular</span></div>
 
+         <div class="popular-box1">
+
          <a href="../posting/formloginhplink.html" class="popular-item">
            <img src="../image/formlogin.png" alt="Tutorial Form Login & Register Modern untuk pemula">
            <div class="popular-info">
@@ -255,16 +267,20 @@
              <span class="pop-date">January 13, 2026</span>
            </div>
          </a>
-         
-         <a href="../posting/kalkulatorpersen.html" class="popular-item">
+
+         </div>
+
+         <div class="popular-box2">
+
+          <a href="../posting/kalkulatorpersen.html" class="popular-item">
            <img src="../image/kalkulatorpersen.png" alt="Tutorial Kalkulator Persen pemula">
            <div class="popular-info">
              <h4>Kalkulator Persen in HTML, CSS & JavaScript</h4>
              <span class="pop-date">January 7, 2026</span>
            </div>
          </a>
-         
-         <a href="../posting/imageslider.html" class="popular-item">
+
+          <a href="../posting/imageslider.html" class="popular-item">
            <img src="../image/imageslider.png" alt="Tutorial Image Slider pemula">
            <div class="popular-info">
              <h4>Image Slider in HTML, CSS & JavaScript</h4>
@@ -272,7 +288,7 @@
            </div>
          </a>
 
-        <a href="../posting/showhidepw.html" class="popular-item">
+         <a href="../posting/showhidepw.html" class="popular-item">
           <img src="../image/showhidepw.png" alt="Tutorial Show Hide Password untuk pemula">
           <div class="popular-info">
             <h4>Show Hide Password in HTML, CSS & JavaScript</h4>
@@ -280,9 +296,21 @@
           </div>
         </a>
 
+        </div>
+
+        <!-- prev next popular -->
+        <div class="prevnext-popular">
+         <div class="prevnext-icon">
+           <i class="fa-solid fa-angle-left" id="left-popular"></i>
+           <i class="fa-solid fa-angle-right" id="right-popular"></i>
+         </div>
+        </div>
+
       </div>
 
     </aside>
+    <!-- SIDEBAR ENDD -->
+     
   </div>
 </section>
       <!-- homeEnd -->
