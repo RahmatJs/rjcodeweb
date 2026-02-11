@@ -182,6 +182,13 @@ btnCloseCategory.addEventListener("click", () => {
       }
   });
 
+    // icon right blog hover dropdown
+  const rightBlog = document.getElementById("right-blog");
+
+  rightBlog.addEventListener("click", () => {
+    window.location.href = '/blog/blog.html';
+  });
+
   // PREV NEXT SIDEBAR POPULAR
   const rightPopular = document.getElementById("right-popular");
   const leftPopular = document.getElementById("left-popular");
