@@ -89,7 +89,7 @@ body {
 }
 /* navbar mengecil saat di scroll */
 .navbar.shrink {
-  padding: 0.1rem 9%;
+  padding: 0.1rem 9% 0.3rem;
   background: rgba(255, 255, 255, 0.9); 
   backdrop-filter: blur(1.5px);
   -webkit-backdrop-filter: blur(5px);
@@ -394,7 +394,7 @@ body {
   position: absolute;
   min-width: 1000px;
   height: 62vh;
-  top: calc(70% + 12px);
+  top: calc(74% + 19.2px);
   left: 170%;
   transform: translateX(-50%);
   background-color: #fff;
@@ -485,7 +485,7 @@ body {
 .dropdownMenu-desk {
   position: absolute;
   min-width: 170px;
-  top: calc(70% + 12px);
+  top: calc(74% + 19.2px);
   left: 50%;
   transform: translateX(-50%);
   background-color: #fff;
