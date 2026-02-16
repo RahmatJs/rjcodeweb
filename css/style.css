@@ -134,6 +134,43 @@ body {
 .navbar-nav a:hover::after {
     width: 100%;
 }
+#hubungi-kami::after {
+  content: "";
+  position: absolute;
+  background: #2ba8ff;
+  height: 2.5px;
+  left: 50%;
+  bottom: -8px;
+  transform: translateX(-50%);
+  width: 100%;
+}
+#javascript::after {
+  content: "";
+  position: absolute;
+  background: #2ba8ff;
+  height: 2.5px;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#htmlcss::after {
+  content: "";
+  position: absolute;
+  background: #2ba8ff;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2.5px;
+}
+#blog::after {
+  content: "";
+  position: absolute;
+  background: #2ba8ff;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2.5px;
+}
 
 /* efek hover category desktop */
 .buble {
