@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- analytics goegle --> 
+    <!-- analytics goegle --> 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EY0W39B61E"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -11,18 +11,18 @@
   gtag('config', 'G-EY0W39B61E');
 </script>
   <!-- analytics goegle -->
+   <meta name="description" content="Tutorial membuat fitur login dan register sederhana menggunakan HTML, CSS, dan JavaScript dengan tampilan modern. Cocok untuk pemula yang ingin belajar membuat sistem autentikasi pada website.">
+    <meta name="keywords" content="login register html css javascript, tutorial login register html css js, membuat login register website, form login html css javascript, tutorial web development pemula, rj code tutorial, membuat sistem login sederhana">
+    <meta name="author" content="RJ Code">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Membuat Smart Form Validator dengan JavaScript yang memberikan saran cerdas, bukan sekadar pesan error.">
-    <meta name="keywords" content="javascript form validation, smart validator js, validasi form javascript">
-    <meta name="author" content="RJ Code">
-
     <!-- CSS -->
-     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!-- boxicons -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <title>Membuat Smart Form Validator Menggunakan JavaScript</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Website With Login & Register Menggunakan HTML, CSS & JavaScript</title>
 </head>
 <body>
     <!-- navbarStart -->
@@ -183,84 +183,85 @@
       </nav>
      <!-- navbarEnd -->
 
-      <div class="content" id="content">
+     <div class="content" id="content">
     <!-- sectionAbout -->
     <section class="hero" id="about">
         <div class="about-container">
 
             <!-- breadcrumb -->
              <div class="breadcrumb">
-                <a href="../index.html">Beranda</a>  <span>›</span>  <span>Membuat Smart Form Validator Menggunakan JavaScript</span>
+                <a href="../index.html">Beranda</a>  <span>›</span>  <span>Website With Login & Register Menggunakan HTML, CSS & JavaScript</span>
              </div>
             <div class="posting-layout">
                 <!-- kiri -->
                 <div class="about-content">
-                     <h2 class="title-about">Membuat Smart Form Validator Menggunakan JavaScript</h2>
+                     <h2 class="title-about">Membuat Website With Login & Register Menggunakan HTML, CSS & JavaScript</h2>
                     <div class="posting-date">
-                        <span class="post-date">January 28, 2026</span>
+                        <span class="post-date">March 05, 2026</span>
                     </div>
 
                     <div class="posting-image">
-                        <img src="../image/smartvalidator.png" alt="Tutorial Membuat Smart Form Validator Menggunakan JavaScript">
+                        <img src="../image/websitewithloginreg.png" alt="Tutorial Membuat Website With Login & Register Menggunakan HTML, CSS & JavaScript">
                     </div>
 
-                    <p>Pernah merasa kesal saat mengisi form di sebuah website, lalu tiba-tiba muncul pesan seperti “Input tidak valid” tanpa penjelasan apa pun? Atau lebih parah lagi, setelah klik submit baru muncul banyak error sekaligus. Inilah salah satu alasan kenapa banyak pengguna meninggalkan website sebelum menyelesaikan pendaftaran. Padahal masalahnya bukan pada form, melainkan pada cara <b>validasi yang kurang ramah pengguna.</b></p>
+                    <p>Pernah tidak saat membuka sebuah website lalu melihat tombol <b>Login</b> dan <b>Register</b>? Hampir semua website modern memiliki fitur ini. Mulai dari media sosial, toko online, sampai website portfolio.</p>
 
-                    <p>Di artikel seri <b>Best JavaScript </b> kali ini di RJ Code, kita akan membahas cara membuat <b>Smart Form Validator menggunakan JavaScript,</b> yaitu validasi form yang tidak hanya memberi tahu bahwa input salah, tetapi juga <b>memberi saran dan membantu user memperbaikinya secara real-time.</b></p>
+                    <p>Fitur ini terlihat sederhana, tapi sebenarnya menjadi salah satu bagian penting dari sebuah website karena berhubungan langsung dengan pengguna. Nah, di artikel RJ Code kali ini saya akan menunjukkan bagaimana cara membuat <b>fitur Login dan Register sederhana menggunakan HTML, CSS, dan JavaScript</b> dengan tampilan yang modern.</p>
 
-                    <h3 style="font-size: 20px;">🎯 Apa Itu Smart Form Validator ?</h3>
+                    <h3 style="font-size: 20px;">Pembukaan</h3>
+                    <br>
+                    <p>Di tutorial ini kita tidak akan menggunakan framework yang rumit atau database yang kompleks. Tujuannya supaya teman-teman yang baru belajar coding bisa memahami dulu konsep dasarnya.</p>
+
+                    <p>Kita akan fokus membuat tampilan login dan register yang interaktif, dimana pengguna bisa berpindah dari form login ke register dengan animasi yang halus. Tampilan yang kita buat juga dibuat modern, dengan background full image, sehingga terlihat lebih profesional walaupun hanya menggunakan HTML, CSS, dan JavaScript murni.</p>
+
+                    <h3 style="font-size: 20px;">Mengapa Fitur Ini Penting Untuk Dibuat</h3>
                     <br>
 
-                    <p>Berbeda dengan validasi form biasa yang hanya fokus pada benar atau salah, Smart Form Validator dirancang untuk berpikir seperti manusia. Ketika user mengetik email atau password, JavaScript langsung merespons dengan pesan yang relevan. Jika email salah format, sistem tidak langsung menyalahkan, tetapi menjelaskan apa yang kurang.</p>
+                    <p>Fitur login dan register bukan sekadar form biasa. Fitur ini memiliki beberapa fungsi penting dalam sebuah website.</p>
 
-                    <p>Konsep ini sangat penting dalam pengembangan website modern karena UX (User Experience) memiliki pengaruh besar terhadap kepercayaan dan konversi pengguna. Dengan JavaScript murni, tanpa library tambahan, kita sudah bisa membangun validasi cerdas seperti ini.</p>
+                    <p>Pertama, fitur ini memungkinkan pengguna memiliki akun pribadi di dalam website kita. Dengan begitu data pengguna bisa disimpan dan diakses kembali ketika mereka login, dan, fitur ini membantu kita membuat sistem akses pengguna. Misalnya hanya pengguna yang sudah login yang bisa mengunduh file, melihat konten tertentu, atau mengakses dashboard.</p>
 
-                    <h3 style="font-size: 20px;">Cara Kerja Validasi Email</h3>
+                    <div class="posting-image">
+                        <img src="../image/klippImg/klipwebsitewithlogin.png" alt="Tutorial Membuat Website With Login & Register Menggunakan HTML, CSS & JavaScript">
+                    </div>
+                    <br><br>
+
+                    <p>Kedua, dari sisi profesionalitas website, adanya fitur login membuat website terlihat lebih serius dan terpercaya, apalagi jika website tersebut digunakan untuk layanan, blog, atau portfolio developer.</p>
+
+                    <p>Walaupun di tutorial ini kita hanya membuat versi sederhana menggunakan JavaScript, konsep yang dipelajari bisa menjadi dasar sebelum nanti belajar <b>backend seperti PHP, Node.js, atau database.</b></p>
+
+                    <h3 style="font-size: 20px;">Cara Pembuatan Secara Simple dan Praktis</h3>
                     <br>
-                    <p>Pada bagian email, JavaScript akan memantau setiap perubahan input secara real-time menggunakan event input. Artinya, setiap karakter yang diketik user langsung diperiksa. Ketika email belum mengandung simbol @, sistem akan menampilkan pesan yang jelas bahwa email harus memiliki @.</p>
+                    <p>Langkah pertama tentu kita membuat struktur HTML terlebih dahulu. Di dalam HTML kita buat satu container utama yang berisi dua form, yaitu form login dan form register. Kedua form ini nantinya akan berada dalam satu box yang sama.</p>
 
-                    <h3 style="font-size: 20px;">Cara Kerja Validasi Password</h3>
+                    <p>Selanjutnya kita membuat style menggunakan CSS. Pada bagian ini kita mengatur layout agar form berada di tengah layar, menambahkan background image agar tampilan website terlihat menarik, serta menambahkan efek seperti shadow, border radius, dan transisi agar tampilan lebih modern.</p>
 
-                    <p>Validasi password pada Smart Form Validator juga tidak kalah penting. JavaScript akan mengecek panjang password terlebih dahulu untuk memastikan jumlah karakter minimal terpenuhi. Jika password terlalu pendek, user langsung diberi tahu alasannya. Setelah itu, sistem mengecek kekuatan password dengan memastikan adanya angka di dalamnya.</p>
+                    <p>Setelah itu kita menggunakan JavaScript untuk mengatur interaksi. JavaScript berfungsi untuk mengubah tampilan form ketika tombol login atau register diklik. Misalnya saat pengguna klik tombol register, maka form register akan muncul dengan animasi, sementara form login akan bergeser.</p>
 
-                   <p>Alih-alih menampilkan pesan seperti “Password tidak valid”, validator ini memberikan saran seperti “Tambahkan angka agar password lebih kuat”.</p>
-
-                    <h3 style="font-size: 20px;">Teknologi yang Digunakan</h3>
-
-                    <p>Dalam pembuatan Smart Form Validator ini, kita menggunakan teknologi dasar web, yaitu:</p>
-                    <ul style="margin: -23px 0 12px 24px;">
-                        <li><b>HTML</b> untuk membuat struktur</li>
-                        <li><b>CSS</b> untuk mengatur tampilan</li>
-                        <li><b>JavaScript</b> untuk interaksi validasi.</li>
-                    </ul>
-
-                    <p>Semua teknologi ini sangat cocok untuk pemula yang ingin belajar frontend development.</p>
-                    
-                    <h3 style="font-size: 20px;">Pelajaran Penting dari Project Smart Form Validator</h3>
-                    <br>
-                    
-                    <p>Smart Form Validator adalah project JavaScript yang sederhana secara struktur, tetapi sangat kuat secara konsep. Project ini melatih pemahaman tentang DOM manipulation, event handling, conditional logic, dan sedikit regular expression.</p>
+                    <p>Konsep yang digunakan biasanya adalah menambahkan atau menghapus class CSS menggunakan JavaScript. Dari sinilah animasi perpindahan form bisa terjadi dengan halus tanpa perlu reload halaman. Dengan cara ini kita sudah berhasil membuat sistem login dan register sederhana yang terlihat interaktif dan modern hanya dengan tiga teknologi dasar web yaitu HTML, CSS, dan JavaScript.</p>
 
                    <h3 style="font-size: 20px;">Kesimpulan</h3>
                    <br>
-                   <p>Smart Form Validator membuktikan bahwa validasi form tidak harus kaku dan membosankan. Dengan JavaScript sederhana, kita bisa menciptakan sistem validasi yang interaktif, edukatif, dan ramah pengguna.</p>
+                   <p>Membuat fitur login dan register sebenarnya tidak sesulit yang dibayangkan. Dengan memahami dasar struktur HTML, styling CSS, dan sedikit logika JavaScript, kita sudah bisa membuat tampilan autentikasi yang cukup profesional.</p>
 
-                   <p>Project ini sangat cocok dijadikan latihan maupun fitur nyata di website modern. Jika diterapkan dengan baik, bukan hanya pengalaman user yang meningkat, tetapi juga kualitas website secara keseluruhan.</p>
+                   <p>Tutorial seperti ini sangat cocok untuk pemula karena membantu memahami bagaimana interaksi pada website bekerja sebelum masuk ke tahap yang lebih kompleks seperti backend dan database.</p>
 
                    <h3 style="font-size: 20px;">Penutup</h3>
                    <br>
-                   <p>Itulah pembahasan lengkap <b>Smart Form Validator JavaScript</b> dalam seri Best <b>JavaScript Project</b> di <b>RJ Code.</b> Project ini bisa kamu kembangkan lebih jauh dengan menambahkan indikator kekuatan password, validasi username, atau integrasi ke backend.</p>
+                   <p>Sekarang kamu sudah tahu bahwa membuat fitur Login dan Register tidak selalu harus rumit. Dengan memanfaatkan HTML, CSS, dan JavaScript, kita sudah bisa membuat tampilan autentikasi yang terlihat modern dan interaktif. Ini bisa menjadi langkah awal sebelum nantinya kamu mengembangkan sistem login yang lebih lengkap menggunakan backend dan database.</p>
 
-                   <p>Pantau terus RJ Code untuk project JavaScript menarik lainnya yang tidak hanya keren secara tampilan, tapi juga kuat secara konsep 🚀</p>
+                   <p>Semoga artikel ini bisa jadi inspirasi dan menambah satu skill baru dalam perjalanan ngoding kamu. Seperti biasa, terus eksplorasi, terus ngoding, dan buat website kamu punya “nyawa”.</p>
+
+                   <p>Itulah pembahasan lengkap mengenai <b>Website With Login & Register</b> di <b>RJ Code. </b>Semoga artikel ini membantu kamu memahami konsep dasar pembangunan sebuah website dengan lebih sederhana dan praktis.</p>
+
+                   <p>Pantau terus RJ Code untuk article menarik lainnya yang tidak hanya keren secara tampilan, tapi juga kuat secara konsep 🚀</p>
 
                    <p><b>RJ Code – Belajar Coding dari Nol, Step by Step 💻🔥</b></p>
 
-                   <p>Video Selengkapnya : <a href="https://www.tiktok.com/@rjcode02/video/7600962677266976020?is_from_webapp=1&sender_device=pc&web_id=7559935294095934994" target="_blank" class="send-linkContent">https://www.tiktok.com/@rjcode02/video</a></p>
-
-                   <p>Anda dapat mengunduh kode sumber untuk proyek fitur <b>Smart Form Validator</b> ini dengan mengklik tombol <i>“Unduh”</i>.</p>
+                   <p>Anda dapat mengunduh kode sumber untuk proyek <b>Social Media Icons Popup Hover</b> ini dengan mengklik tombol <i>“Unduh”</i>.</p>
 
                    <div class="btndownload-code">
-                    <button id="btn-download" data-file="/linkposting/SmartFormValidator.zip">Unduh File Code</button>
+                    <button id="btn-download" data-file="/linkposting/websitewithlogin&register.zip">Unduh File Code</button>
                    </div>
 
                    <p id="textdownload" style="display: none;">Unduhan Anda akan dimulai dalam <span id="seconds">5</span> Detik</p>
@@ -269,13 +270,17 @@
                     <div class="tags-container">
                         <span class="title-tags">Tags</span>
 
-                        <a href="#" class="tag">HTML CSS JavaScript</a>
+                        <a href="#" class="tag">HTML CSS</a>
                         <a href="#" class="tag">Html</a>
-                        <a href="#" class="tag">java script</a>
-                        <a href="#" class="tag">java script project</a>
-                        <a href="#" class="tag">smartformvalidator</a>
-                        <a href="#" class="tag">bestjavascriptproject</a>
-                        <a href="#" class="tag">miniproject</a>
+                        <a href="#" class="tag">css</a>
+                        <a href="#" class="tag">loginregister</a>
+                        <a href="#" class="tag">UIUXDesign</a>
+                        <a href="#" class="tag">WebDesign</a>
+                        <a href="#" class="tag">FrontendDeveloper</a>
+                        <a href="#" class="tag">WebsiteModern</a>
+                        <a href="#" class="tag">UILogin</a>
+                        <a href="#" class="tag">WebsiteInteraktif</a>
+                        <a href="#" class="tag">programmingindonesia</a>
 
                     </div>
 
@@ -296,7 +301,7 @@
                         </a> -->
 
 
-                        <a href="https://wa.me/?text=Halo%20aku%20lagi%20baca%20artikel%20menarik%20di%20RJ%20Code:%20https:https://rjcodeweb.netlify.app/posting/smartformvalidator" target="_blank" class="box-share box-wa" aria-label="Bagikan Ke WhatsApp">
+                        <a href="https://wa.me/?text=Halo%20aku%20lagi%20baca%20artikel%20menarik%20di%20RJ%20Code:%20https:https://rjcodeweb.netlify.app/posting/websitewithloginreg" target="_blank" class="box-share box-wa" aria-label="Bagikan Ke WhatsApp">
                             <i class="fa-brands fa-whatsapp wa-icon"></i>
                              <span class="divider"></span>
                             <span class="apk-share wa-share">WhatsApp</span> 
@@ -316,12 +321,12 @@
 
                         <div class="prev-article">
                             <span id="prev-text">Previous article</span>
-                            <a href="../posting/dropdownnavbar.html" id="prev-text">Dropdown Navbar in HTML, CSS & JavaScript</a>
+                            <a href="../posting/socialmediaiconspopup.html" id="prev-text">Social Media Icons Popup Hover Menggunakan HTML, CSS & JavaScript</a>
                         </div>
 
                         <div class="next-article">
                             <span id="next-text">Next article</span>
-                            <a href="../posting/passwordchacker.html" id="next-text">Password Checker in JavaScript</a>
+                            <a id="next-text">--</a>
                         </div>
 
                       </div>
@@ -331,14 +336,6 @@
                  <!-- kanan -->
                  <aside class="about-sidebar">
                    <h3 class="aboutsidebar-title">Terbaru</h3>
-
-                   <a href="../posting/websitewithloginreg.html" class="popular-item">
-                        <img src="../image/websitewithloginreg.png" alt="Tutorial Website With Login & Register Menggunakan HTML, CSS & JavaScript pemula">
-                        <div class="popular-info">
-                            <h4>Website With Login & Register Menggunakan HTML, CSS & JavaScript</h4>
-                            <span class="pop-date">March 05, 2026</span>
-                        </div>
-                    </a>
 
                    <a href="../posting/socialmediaiconspopup.html" class="popular-item">
                         <img src="../image/socialmediaiconspopuphover.png" alt="Tutorial Social media icons popup hover untuk pemula">
@@ -363,7 +360,7 @@
                             <span class="pop-date">February 04, 2026</span>
                         </div>
                     </a>
-                   
+
                    <a href="../posting/passwordchacker.html" class="popular-item">
                        <img src="../image/passwordchacker.png" alt="Tutorial Password Chacker untuk pemula">
                        <div class="popular-info">
@@ -371,30 +368,38 @@
                            <span class="pop-date">February 02, 2026</span>
                        </div>
                    </a>
-
+                   
+                   <a href="../posting/smartformvalidator.html" class="popular-item">
+                       <img src="../image/smartvalidator.png" alt="Tutorial Smart Form Validator untuk pemula">
+                       <div class="popular-info">
+                           <h4>Smart Form Validator in JavaScript</h4>
+                           <span class="pop-date">January 28, 2026</span>
+                       </div>
+                   </a>
+                   
                    <a href="../posting/dropdownnavbar.html" class="popular-item">
                        <img src="../image/dropdownnavbar.png" alt="Tutorial Dropdown Navbar untuk pemula">
                        <div class="popular-info">
                            <h4>Dropdown Navbar in HTML, CSS & JavaScript</h4>
                            <span class="pop-date">January 13, 2026</span>
                        </div>
-                   </a>
+                      </a>
+                      
+                      <!-- <a href="../posting/kalkulatorpersen.html" class="popular-item">
+                          <img src="../image/kalkulatorpersen.png" alt="Tutorial Kalkulator Persen untuk pemula">
+                          <div class="popular-info">
+                              <h4>Kalkulator Persen in HTML, CSS & JavaScript</h4>
+                              <span class="pop-date">January 7, 2026</span>
+                          </div>
+                      </a> -->
 
-                   <!-- <a href="../posting/kalkulatorpersen.html" class="popular-item">
-                       <img src="../image/kalkulatorpersen.png" alt="Tutorial Kalkulator Persen untuk pemula">
-                       <div class="popular-info">
-                           <h4>Kalkulator Persen in HTML, CSS & JavaScript</h4>
-                           <span class="pop-date">January 7, 2026</span>
-                       </div>
-                   </a> -->
-
-                   <!-- <a href="../posting/imageslider.html" class="popular-item">
-                       <img src="../image/imageslider.png" alt="Tutorial Image Slider untuk pemula">
-                       <div class="popular-info">
-                           <h4>Image Slider in HTML, CSS & JavaScript</h4>
-                           <span class="pop-date">December 31, 2025</span>
-                       </div>
-                   </a> -->
+                      <!-- <a href="../posting/imageslider.html" class="popular-item">
+                          <img src="../image/imageslider.png" alt="Tutorial Image Slider untuk pemula">
+                          <div class="popular-info">
+                              <h4>Image Slider in HTML, CSS & JavaScript</h4>
+                              <span class="pop-date">December 31, 2025</span>
+                          </div>
+                      </a> -->
 
                     <!-- <a href="../posting/showhidepw.html" class="popular-item">
                         <img src="../image/showhidepw.png" alt="Tutorial Show Hide Password untuk pemula">
@@ -402,7 +407,7 @@
                             <h4>Show Hide Password in HTML, CSS & JavaScript</h4>
                             <span class="pop-date">December 25, 2025</span>
                         </div>
-                    </a> -->
+                      </a> -->
 
                  </aside>
 
@@ -453,7 +458,7 @@
      <!-- copyrightEnd -->
      </div>
     
-     <script src="../script/script.js"></script>
-     <script src="../script/btndownload.js"></script>
+    <script src="../script/script.js"></script>
+    <script src="../script/btndownload.js"></script>
 </body>
 </html>
