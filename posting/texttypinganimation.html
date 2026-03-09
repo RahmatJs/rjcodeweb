@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- analytics goegle --> 
+    <!-- analytics goegle --> 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EY0W39B61E"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -11,20 +11,17 @@
   gtag('config', 'G-EY0W39B61E');
 </script>
   <!-- analytics goegle -->
-    <meta charset="UTF-8">
-    <meta name="description" content="Tutorial membuat Simple Landing Page Modern menggunakan html, css.">
-    <meta name="keywords" content="landing page modern, desain landing page, landing page profesional, website modern, UI UX landing page, landing page responsive, contoh landing page modern, cara membuat landing page modern, tips desain landing page, landing page bisnis, landing page portfolio">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Tutorial membuat Text Typing Animation menggunakan JavaScript sederhana. Pelajari cara membuat efek teks seperti sedang diketik yang cocok untuk landing page atau portfolio website.">
+    <meta name="keywords" content="text typing animation javascript, javascript typing effect, animasi teks javascript, typing animation website, javascript animation effect, tutorial javascript pemula, javascript website effect, coding animation javascript.">
     <meta name="author" content="RJ Code">
-
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- boxicons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <title>Membuat Simple Landing Page Modern Menggunakan HTML & CSS</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Typing Animation Menggunakan JavaScript</title>
 </head>
 <body>
     <!-- navbarStart -->
@@ -192,75 +189,106 @@
 
             <!-- breadcrumb -->
              <div class="breadcrumb">
-                <a href="../index.html">Beranda</a>  <span>›</span>  <span>Membuat Simple Landing Page Modern Menggunakan HTML & CSS</span>
+                <a href="../index.html">Beranda</a>  <span>›</span>  <span>Text Typing Animation Menggunakan JavaScript</span>
              </div>
             <div class="posting-layout">
                 <!-- kiri -->
                 <div class="about-content">
-                     <h2 class="title-about">Membuat Simple Landing Page Modern Menggunakan HTML & CSS</h2>
+                     <h2 class="title-about">Membuat Text Typing Animation Menggunakan JavaScript</h2>
                     <div class="posting-date">
-                        <span class="post-date">February 04, 2026</span>
+                        <span class="post-date">March 08, 2026</span>
                     </div>
 
                     <div class="posting-image">
-                        <img src="../image/landingpagemodern.png" alt="Tutorial Membuat Simple Landing Page Modern Menggunakan HTML & CSS">
+                        <img src="../image/texttypinganimation.png" alt="Tutorial Membuat Text Typing Animation Menggunakan JavaScript">
                     </div>
 
-                    <p>Pernah nggak kamu membuka sebuah website lalu dalam <b>3 detik langsung tertarik,</b> atau malah langsung menutup tab?</p>
+                    <p>Pernah melihat tulisan di website yang muncul seperti sedang diketik oleh komputer? Hurufnya muncul satu per satu, kadang disertai cursor berkedip di ujung teks. Efek seperti ini sering dipakai di landing page, portfolio developer, atau website teknologi karena terlihat lebih hidup dan interaktif.</p>
 
-                    <p>Itulah kekuatan sebuah landing page modern. Di era digital sekarang, landing page bukan sekadar halaman pembuka, tapi alat utama untuk menarik perhatian, membangun kepercayaan, dan mendorong aksi. Website boleh bagus, tapi tanpa landing page yang tepat, pengunjung bisa pergi begitu saja.</p>
+                    <p>Menariknya, efek seperti ini ternyata tidak perlu library berat atau framework khusus. Cukup menggunakan HTML, CSS, dan sedikit JavaScript, kita sudah bisa membuat animasi teks yang terlihat profesional.</p>
 
-                    <p>Landing page modern hadir sebagai jawaban: <b>lebih fokus, lebih cepat dipahami, dan lebih efektif.</b></p>
+                    <h3 style="font-size: 20px;">Pembukaan</h3>
+                    <br>
+                    <p>Pada artikel kali ini di RJ Code. <b>Serta Seri Best JavaScript part 3,</b> kita akan mencoba membuat Text Typing Animation sederhana menggunakan JavaScript. Efek ini akan menampilkan teks yang muncul huruf demi huruf, seperti sedang diketik secara langsung di layar.</p>
 
-                    <p>Di artikel ini, kita akan membahas bagaimana cara <b>membuat Simple Landing Page Modern menggunakan Html & Css,</b> memahami proses dibaliknya seperti efek efek tertentu, warna, background, shadow, dll ,agar pengguna merasa nyaman dan tertarik saat mengunjungi sebuah website.</p>
+                    <p>Contoh yang akan kita buat nantinya kurang lebih seperti ini :</p>
+                    <div style="margin-top: -15px;">
+                    <p style="margin-bottom: -3px;">Welcome to RJ Code</p>
+                    <p style="margin-bottom: -3px;">Learn Coding With Simple Project</p>
+                    <p>Best JavaScript Animation</p>
+                    </div>
 
-                    <h3 style="font-size: 20px;">Apa Itu Simple Landing Page Modern ?</h3>
+                    <p>Setiap kalimat akan muncul secara perlahan dan otomatis turun ke baris berikutnya. Efek ini sangat cocok digunakan pada hero section website, halaman portfolio, atau bahkan landing page produk.</p>
+
+                    <h3 style="font-size: 20px;">Mengapa Fitur Ini Penting Untuk Dibuat</h3>
                     <br>
 
-                    <p>Simple Landing page modern adalah sebuah halaman website sederhana & praktis yang dirancang dengan satu tujuan utama, entah itu mengajak pengunjung mendaftar, menghubungi, atau melihat produk. Tidak banyak distraksi, tidak banyak menu yang membingungkan, semuanya diarahkan ke satu aksi jelas (Call To Action).</p>
+                    <p>Walaupun terlihat sederhana, fitur text typing animation sebenarnya punya peran yang cukup penting dalam tampilan website. Tanpa animasi, teks biasanya hanya tampil statis dan terlihat biasa saja. Namun ketika ditambahkan efek mengetik, halaman website terasa lebih hidup dan menarik perhatian pengunjung.</p>
 
-                    <p>Berbeda dengan landing page lama yang penuh teks dan elemen berat, landing page modern mengutamakan, desain bersih, visual yang nyaman di mata, pesan singkat tapi kuat, kecepatan dan responsivitas</p>
+                    <p>Selain itu, efek ini sering digunakan untuk menonjolkan pesan utama di bagian atas website. Misalnya memperkenalkan siapa kita, apa yang kita buat, atau layanan apa yang ditawarkan.</p>
 
-                    <h3 style="font-size: 20px;">Kenapa Landing Page Modern Sangat Penting</h3>
+                    <span style="font-size: 12px; color: #7d7d7d; font-style: italic;">Contoh video :</span>
+
+                    <video controls class="video">
+                            <source src="../image/klippImg/kliptexttypinganimation.mp4" type="video/mp4">
+                            Browser Anda tidak mendukung tag video.
+                    </video>
+                    <span style="font-size: 12px; color: #7d7d7d; font-style: italic;">Video source by : Pinterest</span>
+                    <br><br>
+
+                    <p>Banyak website portfolio developer bahkan menggunakan efek ini untuk menampilkan kalimat seperti :</p>
+
+                    <div style="margin-top: -15px;">
+                    <p style="margin-bottom: -3px;">I am Web Developer</p>
+                    <p style="margin-bottom: -3px;">I am UI Designer</p>
+                    <p>I build Modern Website</p>
+                    </div>
+
+                    <p>Karena tampilannya simpel tapi tetap terlihat profesional.</p>
+
+                    <h3 style="font-size: 20px;">Manfaat Pembuatan Fitur Tersebut</h3>
                     <br>
-                    <p>Di zaman sekarang, perhatian user itu mahal. Jika website kamu tidak langsung “kena” dalam hitungan detik, user akan pergi. Landing page modern membantu, meningkatkan conversion rate, membuat brand terlihat lebih profesional, menyampaikan pesan dengan cepat, mengarahkan fokus user ke CTA</p>
 
-                    <p>Dengan desain yang tepat, satu halaman bisa bekerja lebih efektif daripada puluhan halaman biasa.</p>
+                    <p>Selain membuat tampilan website lebih menarik, ada beberapa manfaat lain dari fitur ini. Pertama tentu saja dari sisi user experience, pengunjung tidak langsung disuguhi teks panjang tetapi melihat animasi yang lebih interaktif.</p>
 
-                    <h3 style="font-size: 20px;">Elemen Penting dalam Landing Page Modern</h3>
+                    <p>Efek ini juga bisa menjadi fokus perhatian di bagian hero website, sehingga pengunjung langsung membaca pesan utama yang ingin kita tampilkan.</p>
 
-                    <p>Landing page modern bukan soal warna gelap atau animasi keren saja. Ada beberapa elemen kunci yang membuatnya bekerja dengan baik.</p>
+                    <p>Dari sisi pembelajaran coding, membuat fitur ini juga melatih kita memahami beberapa konsep penting di JavaScript seperti array, pengulangan teks, manipulasi DOM, dan penggunaan setTimeout untuk membuat animasi sederhana.</p>
 
-                    <p>Pertama adalah <b>headline yang kuat.</b> Judul harus langsung menjawab pertanyaan user: “ <i>Ini website tentang apa dan apa manfaatnya buat saya</i>?”</p>
+                    <h3 style="font-size: 20px;">Cara Pembuatan Secara Simple dan Praktis</h3>
+                    <br>
+                    <p>Cara membuatnya sebenarnya cukup sederhana. Pertama kita hanya perlu menyiapkan elemen HTML yang akan menampilkan teks animasi. Biasanya cukup menggunakan satu elemen seperti heading atau div yang memiliki id tertentu, misalnya id typing.</p>
 
-                    <p>Kedua adalah <b>visual pendukung.</b> Bisa berupa ilustrasi, mockup, atau background gradient yang tidak mengganggu fokus teks.</p>
+                    <p>Setelah itu kita menambahkan JavaScript yang berfungsi untuk mengambil teks dari beberapa kalimat yang sudah kita simpan di dalam sebuah array. Script ini kemudian akan mengambil huruf satu per satu dari kalimat tersebut dan menampilkannya secara bertahap ke dalam elemen HTML.</p>
 
-                    <p>Ketiga adalah <b>call to action</b> yang jelas. Tombol CTA harus mudah terlihat, kontras, dan punya kata yang mendorong aksi seperti Get Started, Learn More, atau Contact Us.</p>
+                    <p>Setiap huruf akan muncul dengan jeda waktu tertentu menggunakan fungsi setTimeout, sehingga terlihat seperti sedang diketik secara manual. Setelah satu kalimat selesai ditampilkan, script akan menambahkan baris baru lalu melanjutkan mengetik kalimat berikutnya.</p>
 
-                    <p>Terakhir adalah <b>layout yang rapi dan fokus</b>. Spasi, ukuran teks, dan hierarki visual sangat berpengaruh pada kenyamanan membaca.</p>
+                    <p>Dengan cara ini kita bisa membuat beberapa kalimat tampil secara bertahap tanpa harus menggunakan plugin tambahan. Semua animasi bisa berjalan hanya dengan JavaScript sederhana.</p>
 
                    <h3 style="font-size: 20px;">Kesimpulan</h3>
                    <br>
-                   <p>Landing page modern adalah kombinasi antara desain yang fokus, pesan yang jelas, dan pengalaman pengguna yang nyaman. Bukan tentang seberapa banyak fitur yang ditampilkan, tapi seberapa efektif halaman tersebut mengarahkan pengunjung ke tujuan utama.</p>
+                   <p>Text Typing Animation adalah salah satu efek JavaScript yang sederhana namun cukup powerful untuk meningkatkan tampilan website. Dengan sedikit kode JavaScript, kita bisa membuat teks yang biasanya statis menjadi lebih hidup dan menarik perhatian pengunjung.</p>
 
-                   <p>Dengan landing page yang tepat, website kamu tidak hanya terlihat keren, tapi juga bekerja secara maksimal.</p>
+                   <p>Selain mempercantik tampilan website, fitur ini juga membantu kita memahami bagaimana cara JavaScript berinteraksi dengan elemen HTML dan mengatur waktu animasi menggunakan fungsi sederhana.</p>
 
                    <h3 style="font-size: 20px;">Penutup</h3>
                    <br>
-                   <p>Di dunia digital yang serba cepat, landing page modern bukan lagi pilihan, melainkan kebutuhan. Jika kamu ingin website yang lebih profesional, lebih dipercaya, dan lebih menghasilkan, maka membangun landing page modern adalah langkah awal yang tepat.</p>
+                   <p>Itulah cara membuat Text Typing Animation menggunakan JavaScript yang bisa langsung kamu terapkan di website. Efek ini sangat cocok digunakan pada landing page, portfolio developer, ataupun halaman utama website agar terlihat lebih modern.</p>
 
-                   <p>Mulailah dari desain yang fokus, pesan yang kuat, dan CTA yang jelas. Karena dalam beberapa detik pertama, landing page-lah yang menentukan apakah pengunjung akan bertahan atau pergi.</p>
+                   <p>Jika kamu tertarik mempelajari lebih banyak efek menarik lainnya, kamu bisa terus mengikuti artikel terbaru di <b>RJ Code,</b> karena akan ada banyak tutorial JavaScript sederhana yang bisa langsung kamu praktikkan.</p>
 
-                   <p>Itulah pembahasan lengkap mengenai <b>Simple Landing Page Modern</b> di <b>RJ Code. </b>Semoga artikel ini membantu kamu memahami konsep dasar pembangunan sebuah website dengan lebih sederhana dan praktis.</p>
+                   <p>Semoga artikel ini bisa jadi inspirasi dan menambah satu skill baru dalam perjalanan ngoding kamu. Seperti biasa, terus eksplorasi, terus ngoding, dan buat website kamu punya “nyawa”.</p>
+
+                   <p>Itulah pembahasan lengkap mengenai <b>Text Typing Animation</b> di <b>RJ Code. </b>Semoga artikel ini membantu kamu memahami konsep dasar pembangunan sebuah website dengan lebih sederhana dan praktis.</p>
 
                    <p>Pantau terus RJ Code untuk article menarik lainnya yang tidak hanya keren secara tampilan, tapi juga kuat secara konsep 🚀</p>
 
                    <p><b>RJ Code – Belajar Coding dari Nol, Step by Step 💻🔥</b></p>
 
-                   <p>Anda dapat mengunduh kode sumber untuk proyek <b>Simple Landing Page Modern</b> ini dengan mengklik tombol <i>“Unduh”</i>.</p>
+                   <p>Anda dapat mengunduh kode sumber untuk proyek <b>Text Typing Animation</b> ini dengan mengklik tombol <i>“Unduh”</i>.</p>
 
                    <div class="btndownload-code">
-                    <button id="btn-download" data-file="/linkposting/simpleLandingPageModern.zip">Unduh File Code</button>
+                    <button id="btn-download" data-file="/linkposting/texttypinganimation.zip">Unduh File Code</button>
                    </div>
 
                    <p id="textdownload" style="display: none;">Unduhan Anda akan dimulai dalam <span id="seconds">5</span> Detik</p>
@@ -271,11 +299,15 @@
 
                         <a href="#" class="tag">HTML CSS</a>
                         <a href="#" class="tag">Html</a>
+                        <a href="#" class="tag">javascriptanimation</a>
                         <a href="#" class="tag">css</a>
-                        <a href="#" class="tag">LandingPageModern</a>
+                        <a href="#" class="tag">UIUXDesign</a>
                         <a href="#" class="tag">WebDesign</a>
                         <a href="#" class="tag">FrontendDeveloper</a>
                         <a href="#" class="tag">WebsiteModern</a>
+                        <a href="#" class="tag">UILogin</a>
+                        <a href="#" class="tag">webdevelopment</a>
+                        <a href="#" class="tag">programmingindonesia</a>
 
                     </div>
 
@@ -296,7 +328,7 @@
                         </a> -->
 
 
-                        <a href="https://wa.me/?text=Halo%20aku%20lagi%20baca%20artikel%20menarik%20di%20RJ%20Code:%20https:https://rjcodeweb.netlify.app/posting/simplelandingpage" target="_blank" class="box-share box-wa" aria-label="Bagikan Ke WhatsApp">
+                        <a href="https://wa.me/?text=Halo%20aku%20lagi%20baca%20artikel%20menarik%20di%20RJ%20Code:%20https:https://rjcodeweb.netlify.app/posting/websitewithloginreg" target="_blank" class="box-share box-wa" aria-label="Bagikan Ke WhatsApp">
                             <i class="fa-brands fa-whatsapp wa-icon"></i>
                              <span class="divider"></span>
                             <span class="apk-share wa-share">WhatsApp</span> 
@@ -316,12 +348,12 @@
 
                         <div class="prev-article">
                             <span id="prev-text">Previous article</span>
-                            <a href="../posting/passwordchacker.html" id="prev-text">Password Checker in JavaScript</a>
+                            <a href="../posting/websitewithloginreg.html" id="prev-text">Website With Login & Register Menggunakan HTML, CSS & JavaScript</a>
                         </div>
 
                         <div class="next-article">
                             <span id="next-text">Next article</span>
-                            <a href="../posting/formloginhplink.html" id="next-text">Form Login & Register Modern In Html, Css & JavaScript</a>
+                            <a id="next-text">--</a>
                         </div>
 
                       </div>
@@ -331,14 +363,6 @@
                  <!-- kanan -->
                  <aside class="about-sidebar">
                    <h3 class="aboutsidebar-title">Terbaru</h3>
-
-                   <a href="../posting/texttypinganimation.html" class="popular-item">
-                        <img src="../image/texttypinganimation.png" alt="Tutorial text Typing Animation untuk pemula">
-                        <div class="popular-info">
-                            <h4>Text Typing Animation Menggunakan JavaScript</h4>
-                            <span class="pop-date">March 08, 2026</span>
-                        </div>
-                    </a>
 
                    <a href="../posting/websitewithloginreg.html" class="popular-item">
                         <img src="../image/websitewithloginreg.png" alt="Tutorial Website With Login & Register Menggunakan HTML, CSS & JavaScript pemula">
@@ -361,6 +385,14 @@
                         <div class="popular-info">
                             <h4>Form Login & Register Modern in Html & Css, JavaScript</h4>
                             <span class="pop-date">February 07, 2026</span>
+                        </div>
+                    </a>
+
+                   <a href="../posting/simplelandingpage.html" class="popular-item">
+                        <img src="../image/landingpagemodern.png" alt="Tutorial Simple Landing Page Modern untuk pemula">
+                        <div class="popular-info">
+                            <h4>Simple Landing Page Modern in Html & Css</h4>
+                            <span class="pop-date">February 04, 2026</span>
                         </div>
                     </a>
 
@@ -461,7 +493,7 @@
      <!-- copyrightEnd -->
      </div>
     
-     <script src="../script/script.js"></script>
-     <script src="../script/btndownload.js"></script>
+    <script src="../script/script.js"></script>
+    <script src="../script/btndownload.js"></script>
 </body>
 </html>

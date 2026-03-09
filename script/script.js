@@ -137,9 +137,9 @@ btnCloseCategory.addEventListener("click", () => {
 
     const currentScroll = window.pageYOffset;
 
-    if (currentScroll > lastScroll && currentScroll > 100) {
+    if (currentScroll > lastScroll && currentScroll > 50) {
       navbar.classList.add("navHide");
-    } if (lastScroll - currentScroll > 8) {
+    } if (lastScroll - currentScroll > 6) {
       navbar.classList.remove("navHide");
     }
 

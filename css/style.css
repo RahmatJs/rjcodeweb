@@ -97,6 +97,7 @@ body {
 /* navbar ke atas saat scroll di mobile */
 .navbar.navHide {
   transform: translateY(-100%);
+  transition: 0.3s ease-in-out;
 }
 .nav-logo {
     font-size: 35px;
@@ -646,8 +647,6 @@ body {
 }
 /*  */
 
-
-
 /* Homestyle */
 .home-container {
   display: grid;
@@ -655,7 +654,7 @@ body {
   grid-template-columns: repeat(auto-fit, minimax(200px, 1fr));
   gap: 40px;
   align-items: start;
-  padding: 7rem 4rem 4rem;
+  padding: 8rem 4rem 4rem;
 }
 .section-title {
   margin: 20px 0;
@@ -1276,6 +1275,13 @@ body {
   overflow: hidden;
   border-radius: 12px;
   margin-bottom: 25px;
+}
+.video {
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  aspect-ratio: 16 / 9;
+  margin-top: 5px;
 }
 
 .posting-image img {
