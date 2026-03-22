@@ -1,111 +1,139 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <!-- analytics goegle --> 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EY0W39B61E"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <!-- analytics goegle -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-EY0W39B61E"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-EY0W39B61E');
-</script>
-  <!-- analytics goegle -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      gtag("config", "G-EY0W39B61E");
+    </script>
+    <!-- analytics goegle -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS -->
-     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css" />
     <!-- boxicons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <!-- font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Login Form - RjCode</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- navbarStart -->
-        <nav class="navbar" id="navbar">
-            <i class="fa-solid fa-bars hamburger-icon" id="menu"></i>
-        <a href="/index.html" class="nav-logo">RjCode</a>
+    <nav class="navbar" id="navbar">
+      <i class="fa-solid fa-bars hamburger-icon" id="menu"></i>
+      <a href="/index.html" class="nav-logo">RjCode</a>
 
-        <div class="navbar-nav">
-            <a href="/index.html">BERANDA</a>
-            <li class="dropdownBlog-desk">
-              <a href="/blog/blog.html">BLOG</a>
-              <i class="fa-solid fa-caret-down" id="icon-downDesk"></i>
-              <ul class="dropdownMenu-deskBlog" id="dropdownMenu-desk">
+      <div class="navbar-nav">
+        <a href="/index.html">BERANDA</a>
+        <li class="dropdownBlog-desk">
+          <a href="/blog/blog.html">BLOG</a>
+          <i class="fa-solid fa-caret-down" id="icon-downDesk"></i>
+          <ul class="dropdownMenu-deskBlog" id="dropdownMenu-desk">
+            <div class="lock-blog">
+              <!-- 3 New Blog -->
 
-               <div class="lock-blog">
-                <!-- 3 New Blog -->
+              <a href="/postingblog/blog4.html" class="hover-blog">
+                <img
+                  src="/image/imgBlog/blog4.jpg"
+                  alt="Cara Memanfaatkan AI untuk Membantu Belajar Coding"
+                />
+                <div class="blog-info">
+                  <h4>Cara Memanfaatkan AI untuk Membantu Belajar Coding</h4>
+                  <span class="pop-dateBlog">February 11, 2026</span>
+                </div>
+              </a>
 
-                <a href="/postingblog/blog4.html" class="hover-blog">
-                  <img src="/image/imgBlog/blog4.jpg" alt="Cara Memanfaatkan AI untuk Membantu Belajar Coding">
-                  <div class="blog-info">
-                    <h4>Cara Memanfaatkan AI untuk Membantu Belajar Coding</h4>
-                    <span class="pop-dateBlog">February 11, 2026</span>
-                  </div>
-                 </a>
+              <a href="/postingblog/blog3.html" class="hover-blog">
+                <img
+                  src="/image/imgBlog/blog3.jpg"
+                  alt="Tutorial Form Login & Register Modern untuk pemula"
+                />
+                <div class="blog-info">
+                  <h4>Kenapa Teknologi Semakin Penting di Era Digital ?</h4>
+                  <span class="pop-dateBlog">January 24, 2026</span>
+                </div>
+              </a>
 
-                 <a href="/postingblog/blog3.html" class="hover-blog">
-                  <img src="/image/imgBlog/blog3.jpg" alt="Tutorial Form Login & Register Modern untuk pemula">
-                  <div class="blog-info">
-                    <h4>Kenapa Teknologi Semakin Penting di Era Digital ?</h4>
-                    <span class="pop-dateBlog">January 24, 2026</span>
-                  </div>
-                 </a>
+              <a href="/postingblog/blog2.html" class="hover-blog">
+                <img
+                  src="/image/imgBlog/blog2.jpg"
+                  alt="Belajar Coding Setiap Hari vs Sekali Seminggu, Mana Lebih Efektif?"
+                />
+                <div class="blog-info">
+                  <h4>
+                    Belajar Coding Setiap Hari vs Sekali Seminggu, Mana Lebih
+                    Efektif?
+                  </h4>
+                  <span class="pop-dateBlog">January 08, 2026</span>
+                </div>
+              </a>
 
-                 <a href="/postingblog/blog2.html" class="hover-blog">
-                  <img src="/image/imgBlog/blog2.jpg" alt="Belajar Coding Setiap Hari vs Sekali Seminggu, Mana Lebih Efektif?">
-                  <div class="blog-info">
-                    <h4>Belajar Coding Setiap Hari vs Sekali Seminggu, Mana Lebih Efektif?</h4>
-                    <span class="pop-dateBlog">January 08, 2026</span>
-                  </div>
-                 </a>
+              <i class="fa-solid fa-chevron-right" id="right-blog"></i>
+            </div>
+          </ul>
+        </li>
 
-                 <i class="fa-solid fa-chevron-right" id="right-blog"></i>
-                 
-              </div>
-                
-              </ul>
+        <li class="dropdown-desk">
+          <a href="/navbardropdownMain/nav-htmlcss.html" id="htmlcss"
+            >HTML & CSS</a
+          >
+          <i class="fa-solid fa-caret-down" id="icon-downDesk"></i>
+          <ul class="dropdownMenu-desk" id="dropdownMenu-desk">
+            <li>
+              <a
+                href="/navbardropdownMain/dropnav/loginform.html"
+                id="drop-item"
+                >Login Form</a
+              >
             </li>
-            
-            <li class="dropdown-desk">
-              <a href="/navbardropdownMain/nav-htmlcss.html" id="htmlcss">HTML & CSS</a>
-              <i class="fa-solid fa-caret-down" id="icon-downDesk"></i>
-              <ul class="dropdownMenu-desk" id="dropdownMenu-desk">
-                <li><a href="/navbardropdownMain/dropnav/loginform.html" id="drop-item">Login Form</a></li>
-              </ul>
-            </li>
+          </ul>
+        </li>
 
-            <li class="dropdown-desk">
-              <a href="/navbardropdownMain/nav-javascript.html">JAVASCRIPT</a>
-              <i class="fa-solid fa-caret-down" id="icon-downDesk"></i>
-              <ul class="dropdownMenu-desk" id="dropdownMenu-desk">
-                <li><a href="/404/404.html" id="drop-item">Image Slider</a></li>
-              </ul>
-            </li>
-            
-            <a href="/hubungikami/hubungikami.html">HUBUNGI KAMI</a>
-        </div>
+        <li class="dropdown-desk">
+          <a href="/navbardropdownMain/nav-javascript.html">JAVASCRIPT</a>
+          <i class="fa-solid fa-caret-down" id="icon-downDesk"></i>
+          <ul class="dropdownMenu-desk" id="dropdownMenu-desk">
+            <li><a href="/404/404.html" id="drop-item">Image Slider</a></li>
+          </ul>
+        </li>
 
-        <div class="category-boxDesk">
-          <i class="fa-solid fa-layer-group" id="icn-categoryDesk"></i>
-          <p class="buble left" id="buble">Categories</p> 
-         </div>
+        <a href="/hubungikami/hubungikami.html">HUBUNGI KAMI</a>
+      </div>
 
-         <i class="fa-solid fa-layer-group" id="icn-categoryMbl"></i>
+      <div class="category-boxDesk">
+        <i class="fa-solid fa-layer-group" id="icn-categoryDesk"></i>
+        <p class="buble left" id="buble">Categories</p>
+      </div>
 
-     </nav>
+      <i class="fa-solid fa-layer-group" id="icn-categoryMbl"></i>
+    </nav>
 
-      <nav class="navbar-respon">
-
+    <nav class="navbar-respon">
       <div class="close-btn">
         <i class="fa-solid fa-xmark" id="btn-close"></i>
       </div>
 
       <div class="navbar-nav2">
-
         <div class="dropdown-nav">
           <a href="/index.html">Beranda</a>
         </div>
@@ -115,36 +143,41 @@
         </div>
 
         <div class="dropdown-nav">
-          <a href="/navbardropdownMain/nav-htmlcss.html" class="main-drop">HTML & CSS</a>
+          <a href="/navbardropdownMain/nav-htmlcss.html" class="main-drop"
+            >HTML & CSS</a
+          >
           <i class="fa-solid fa-chevron-right" id="icon-rightHtml"></i>
           <ul class="dropdown-menu" id="dropdown-menuHtml">
-            <li><a href="/navbardropdownMain/dropnav/loginform.html">Login Form</a></li>
+            <li>
+              <a href="/navbardropdownMain/dropnav/loginform.html"
+                >Login Form</a
+              >
+            </li>
           </ul>
         </div>
 
         <div class="dropdown-nav">
-          <a href="/navbardropdownMain/nav-javascript.html" class="main-drop">JavaScript</a>
+          <a href="/navbardropdownMain/nav-javascript.html" class="main-drop"
+            >JavaScript</a
+          >
           <i class="fa-solid fa-chevron-right" id="icon-right"></i>
           <ul class="dropdown-menu" id="dropdown-menu">
             <li><a href="/404/404.html">Image Slider</a></li>
           </ul>
         </div>
 
-         <div class="dropdown-nav">
+        <div class="dropdown-nav">
           <a href="/hubungikami/hubungikami.html">Hubungi Kami</a>
         </div>
-
       </div>
+    </nav>
 
-      </nav>
+    <nav class="category-respon">
+      <h1>Categories</h1>
 
-        <nav class="category-respon">
-        <h1>Categories</h1>
-
-         <i class="fa-solid fa-xmark" id="btn-closeCategory"></i>
+      <i class="fa-solid fa-xmark" id="btn-closeCategory"></i>
 
       <div class="main-category">
-
         <div class="category-content">
           <a href="/navbardropdownMain/nav-htmlcss.html">Html & Css</a>
           <span>2</span>
@@ -154,18 +187,15 @@
           <a href="/navbardropdownMain/nav-javascript.html">Java Script</a>
           <span>6</span>
         </div>
-
       </div>
+    </nav>
 
-      </nav>
+    <nav class="category-desk">
+      <h1>Categories</h1>
 
-        <nav class="category-desk">
-        <h1>Categories</h1>
-
-         <i class="fa-solid fa-xmark" id="btn-closeCategoryDesk"></i>
+      <i class="fa-solid fa-xmark" id="btn-closeCategoryDesk"></i>
 
       <div class="main-categoryDesk">
-
         <div class="category-contentDesk">
           <a href="/navbardropdownMain/nav-htmlcss.html">Html & Css</a>
           <span>2</span>
@@ -175,158 +205,226 @@
           <a href="/navbardropdownMain/nav-javascript.html">Java Script</a>
           <span>6</span>
         </div>
-
       </div>
+    </nav>
+    <!-- navbarEnd -->
 
-      </nav>
-     <!-- navbarEnd -->
-
-     <div class="content" id="content">
-     <!-- herosectionStart -->
+    <div class="content" id="content">
+      <!-- herosectionStart -->
       <section class="home" id="home">
-  <div class="home-container">
+        <div class="home-container">
+          <!-- KONTEN UTAMA -->
+          <main class="content">
+            <!-- breadcrumb -->
+            <div class="breadcrumb">
+              <a href="/index.html">Beranda</a> <span>›</span>
+              <span>Login Form</span>
+            </div>
 
-    <!-- KONTEN UTAMA -->
-    <main class="content">
-        <!-- breadcrumb -->
-        <div class="breadcrumb">
-            <a href="/index.html">Beranda</a>  <span>›</span>  <span>Login Form</span>
-        </div>
+            <h2 class="title-blog">LOGIN FORM</h2>
 
-        <h2 class="title-blog">LOGIN FORM</h2>
+            <div class="post-grid">
 
-      <div class="post-grid">
+              <!-- Login form 5 -->
+              <article class="post-card">
+                <a href="/posting/3dformlogin.html" class="post-link">
+                  <div class="post-image">
+                    <img
+                      src="/image/3dlogin.png"
+                      alt="Tutorial Membuat Form Login 3D Flip Keren dengan HTML, CSS, dan JavaScript pemula"
+                    />
+                  </div>
 
-            <!-- Login form 4 -->
-             <article class="post-card">
-              <a href="/posting/websitewithloginreg.html" class="post-link">
-                <div class="post-image">
-                  <img src="/image/websitewithloginreg.png" alt="Tutorial Membuat Website With Login & Register">
+                  <div>
+                    <h3 class="post-title">
+                      Form Login 3D Flip Keren dengan HTML, CSS, dan JavaScript
+                    </h3>
+                  </a>
+                  <p class="post-date">March 19, 2026</p>
                 </div>
-    
-                <div>
-                <h3 class="post-title">
-                  Website With Login & Register Menggunakan HTML, CSS & JavaScript
-                </h3>
-              </a>
-              <p class="post-date">March 05, 2026</p>
-              </div>
-            </article>
+              </article>
 
-            <!-- Login form 3 -->
-             <article class="post-card">
-              <a href="/posting/formloginhplink.html" class="post-link">
-                <div class="post-image">
-                  <img src="/image/formlogin.png" alt="Tutorial Membuat Form Login & Register Modern Tanpa Hyperlink">
+              <!-- Login form 4 -->
+              <article class="post-card">
+                <a href="/posting/websitewithloginreg.html" class="post-link">
+                  <div class="post-image">
+                    <img
+                      src="/image/websitewithloginreg.png"
+                      alt="Tutorial Membuat Website With Login & Register"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="post-title">
+                      Website With Login & Register Menggunakan HTML, CSS &
+                      JavaScript
+                    </h3>
+                  </a>
+                  <p class="post-date">March 05, 2026</p>
                 </div>
-    
-                <div>
-                <h3 class="post-title">
-                  Form Login & Register Modern Tanpa Hyperlink Menggunakan HTML , ...
-                </h3>
-              </a>
-              <p class="post-date">February 07, 2026</p>
-              </div>
-            </article>
+              </article>
 
-            <!-- Login form 2 -->
-            <article class="post-card">
-              <a href="/posting/passwordchacker.html" class="post-link">
-                <div class="post-image">
-                  <img src="/image/passwordchacker.png" alt="Tutorial Membuat Password Checker JavaScript">
+              <!-- Login form 3 -->
+              <article class="post-card">
+                <a href="/posting/formloginhplink.html" class="post-link">
+                  <div class="post-image">
+                    <img
+                      src="/image/formlogin.png"
+                      alt="Tutorial Membuat Form Login & Register Modern Tanpa Hyperlink"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="post-title">
+                      Form Login & Register Modern Tanpa Hyperlink Menggunakan
+                      HTML , ...
+                    </h3>
+                  </a>
+                  <p class="post-date">February 07, 2026</p>
                 </div>
-    
-                <div>
-                <h3 class="post-title">
-                  Password Checker Menggunakan JavaScript
-                </h3>
-              </a>
-              <p class="post-date">February 02, 2026</p>
-              </div>
-            </article>
+              </article>
 
-            <!-- Login form 1 -->
-             <article class="post-card">
-              <a href="/posting/smartformvalidator.html" class="post-link">
-                <div class="post-image">
-                  <img src="/image/smartvalidator.png" alt="Tutorial Membuat Smart Form Validator JavaScript">
+              <!-- Login form 2 -->
+              <article class="post-card">
+                <a href="/posting/passwordchacker.html" class="post-link">
+                  <div class="post-image">
+                    <img
+                      src="/image/passwordchacker.png"
+                      alt="Tutorial Membuat Password Checker JavaScript"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="post-title">
+                      Password Checker Menggunakan JavaScript
+                    </h3>
+                  </a>
+                  <p class="post-date">February 02, 2026</p>
                 </div>
-    
-                <div>
-                <h3 class="post-title">
-                  Smart Form Validator Menggunakan JavaScript
-                </h3>
+              </article>
+
+              <!-- Login form 1 -->
+              <article class="post-card">
+                <a href="/posting/smartformvalidator.html" class="post-link">
+                  <div class="post-image">
+                    <img
+                      src="/image/smartvalidator.png"
+                      alt="Tutorial Membuat Smart Form Validator JavaScript"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="post-title">
+                      Smart Form Validator Menggunakan JavaScript
+                    </h3>
+                  </a>
+                  <p class="post-date">January 28, 2026</p>
+                </div>
+              </article>
+              
+            </div>
+          </main>
+
+          <!-- SIDEBAR -->
+          <aside class="sidebar">
+            <!-- POPULAR -->
+            <div class="popular-box popular-blog">
+              <div class="section-title"><span>Terbaru</span></div>
+
+              <a href="/posting/3dformlogin.html" class="popular-item">
+                <img
+                  src="/image/3dlogin.png"
+                  alt="Tutorial Membuat Form Login 3D Flip Keren dengan HTML, CSS, dan JavaScript pemula"
+                />
+                <div class="popular-info">
+                  <h4>
+                    Form Login 3D Flip Keren dengan HTML, CSS, dan JavaScript
+                  </h4>
+                  <span class="pop-date">March 19, 2026</span>
+                </div>
               </a>
-              <p class="post-date">January 28, 2026</p>
-              </div>
-            </article>
 
-      </div>
-    </main>
+              <a href="/posting/texttypinganimation.html" class="popular-item">
+                <img
+                  src="/image/texttypinganimation.png"
+                  alt="Tutorial text Typing Animation untuk pemula"
+                />
+                <div class="popular-info">
+                  <h4>Text Typing Animation Menggunakan JavaScript</h4>
+                  <span class="pop-date">March 08, 2026</span>
+                </div>
+              </a>
 
-    <!-- SIDEBAR -->
-    <aside class="sidebar">
+              <!-- terbaru 10 -->
+              <a href="/posting/websitewithloginreg.html" class="popular-item">
+                <img
+                  src="/image/websitewithloginreg.png"
+                  alt="Tutorial Website With Login & Register Menggunakan HTML, CSS & JavaScript pemula"
+                />
+                <div class="popular-info">
+                  <h4>
+                    Website With Login & Register Menggunakan HTML, CSS &
+                    JavaScript
+                  </h4>
+                  <span class="pop-date">March 05, 2026</span>
+                </div>
+              </a>
 
+              <!-- terbaru 9 -->
+              <a
+                href="/posting/socialmediaiconspopup.html"
+                class="popular-item"
+              >
+                <img
+                  src="/image/socialmediaiconspopuphover.png"
+                  alt="Tutorial Social media icons popup hover untuk pemula"
+                />
+                <div class="popular-info">
+                  <h4>
+                    Social Media Icons Popup Hover Menggunakan HTML, CSS &
+                    JavaScript
+                  </h4>
+                  <span class="pop-date">February 14, 2026</span>
+                </div>
+              </a>
 
-      <!-- POPULAR -->
-      <div class="popular-box popular-blog">
-         <div class="section-title"><span>Terbaru</span></div>
+              <!-- terbaru 8 -->
+              <a href="/posting/formloginhplink.html" class="popular-item">
+                <img
+                  src="/image/formlogin.png"
+                  alt="Tutorial Form Login & Register Modern untuk pemula"
+                />
+                <div class="popular-info">
+                  <h4>
+                    Form Login & Register Modern in Html & Css, JavaScript
+                  </h4>
+                  <span class="pop-date">February 07, 2026</span>
+                </div>
+              </a>
 
-         <a href="/posting/texttypinganimation.html" class="popular-item">
-           <img src="/image/texttypinganimation.png" alt="Tutorial text Typing Animation untuk pemula">
-           <div class="popular-info">
-             <h4>Text Typing Animation Menggunakan JavaScript</h4>
-             <span class="pop-date">March 08, 2026</span>
-           </div>
-         </a>
+              <!-- terbaru 7 -->
+              <a href="/posting/simplelandingpage.html" class="popular-item">
+                <img
+                  src="/image/landingpagemodern.png"
+                  alt="Tutorial Simple Landing Page Modern untuk pemula"
+                />
+                <div class="popular-info">
+                  <h4>Simple Landing Page Modern in Html & Css</h4>
+                  <span class="pop-date">February 04, 2026</span>
+                </div>
+              </a>
 
-         <!-- terbaru 10 -->
-         <a href="/posting/websitewithloginreg.html" class="popular-item">
-           <img src="/image/websitewithloginreg.png" alt="Tutorial Website With Login & Register Menggunakan HTML, CSS & JavaScript pemula">
-           <div class="popular-info">
-             <h4>Website With Login & Register Menggunakan HTML, CSS & JavaScript</h4>
-             <span class="pop-date">March 05, 2026</span>
-           </div>
-         </a>
-
-         <!-- terbaru 9 -->
-         <a href="/posting/socialmediaiconspopup.html" class="popular-item">
-           <img src="/image/socialmediaiconspopuphover.png" alt="Tutorial Social media icons popup hover untuk pemula">
-           <div class="popular-info">
-             <h4>Social Media Icons Popup Hover Menggunakan HTML, CSS & JavaScript</h4>
-             <span class="pop-date">February 14, 2026</span>
-           </div>
-         </a>
-
-         <!-- terbaru 8 -->
-         <a href="/posting/formloginhplink.html" class="popular-item">
-           <img src="/image/formlogin.png" alt="Tutorial Form Login & Register Modern untuk pemula">
-           <div class="popular-info">
-             <h4>Form Login & Register Modern in Html & Css, JavaScript</h4>
-             <span class="pop-date">February 07, 2026</span>
-           </div>
-         </a>
-
-         <!-- terbaru 7 -->
-         <a href="/posting/simplelandingpage.html" class="popular-item">
-           <img src="/image/landingpagemodern.png" alt="Tutorial Simple Landing Page Modern untuk pemula">
-           <div class="popular-info">
-             <h4>Simple Landing Page Modern in Html & Css</h4>
-             <span class="pop-date">February 04, 2026</span>
-           </div>
-         </a>
-
-         <!-- terbaru 6 -->
-         <a href="/posting/passwordchacker.html" class="popular-item">
+              <!-- terbaru 6 -->
+              <!-- <a href="/posting/passwordchacker.html" class="popular-item">
            <img src="/image/passwordchacker.png" alt="Tutorial Password Checker untuk pemula">
            <div class="popular-info">
              <h4>Password Checker in JavaScript</h4>
              <span class="pop-date">February 02, 2026</span>
            </div>
-         </a>
+         </a> -->
 
-         <!-- terbaru 5 -->
-        <!-- <a href="/posting/smartformvalidator.html" class="popular-item">
+              <!-- terbaru 5 -->
+              <!-- <a href="/posting/smartformvalidator.html" class="popular-item">
           <img src="/image/smartvalidator.png" alt="Tutorial Smart Form Valdator untuk pemula">
           <div class="popular-info">
             <h4>Smart Form Validator in JavaScript</h4>
@@ -334,8 +432,8 @@
           </div>
         </a> -->
 
-        <!-- terbaru 4 -->
-        <!-- <a href="/posting/dropdownnavbar.html" class="popular-item">
+              <!-- terbaru 4 -->
+              <!-- <a href="/posting/dropdownnavbar.html" class="popular-item">
           <img src="/image/dropdownnavbar.png" alt="Tutorial Dropdown Navbar untuk pemula">
           <div class="popular-info">
             <h4>Dropdown Navbar in HTML, CSS & JavaScript</h4>
@@ -343,17 +441,17 @@
           </div>
         </a> -->
 
-        <!-- terbaru 3 -->
-        <!-- <a href="../posting/kalkulatorpersen.html" class="popular-item">
+              <!-- terbaru 3 -->
+              <!-- <a href="../posting/kalkulatorpersen.html" class="popular-item">
           <img src="../image/kalkulatorpersen.png" alt="Tutorial Kalkulator Persen untuk pemula">
           <div class="popular-info">
             <h4>Kalkulator Persen in HTML, CSS & JavaScript</h4>
             <span class="pop-date">January 7, 2026</span>
           </div>
         </a> -->
-        
-        <!-- terbaru 2 -->
-        <!-- <a href="../posting/imageslider.html" class="popular-item">
+
+              <!-- terbaru 2 -->
+              <!-- <a href="../posting/imageslider.html" class="popular-item">
           <img src="../image/imageslider.png" alt="Tutorial Image Slider untuk pemula">
           <div class="popular-info">
             <h4>Image Slider in HTML, CSS & JavaScript</h4>
@@ -361,63 +459,72 @@
           </div>
         </a> -->
 
-        <!-- terbaru 1 -->
-        <!-- <a href="../posting/showhidepw.html" class="popular-item">
+              <!-- terbaru 1 -->
+              <!-- <a href="../posting/showhidepw.html" class="popular-item">
           <img src="../image/showhidepw.png" alt="Tutorial Show Hide Password untuk pemula">
           <div class="popular-info">
             <h4>Show Hide Password in HTML, CSS & JavaScript</h4>
             <span class="pop-date">December 25, 2025</span>
           </div>
         </a> -->
-
-      </div>
-
-    </aside>
-  </div>
+            </div>
+          </aside>
+        </div>
       </section>
       <!-- homeEnd -->
 
-     <!-- footerStart -->
-       <footer class="footer">
+      <!-- footerStart -->
+      <footer class="footer">
         <div class="footer-row">
-
-            <!-- logo -->
-            <div class="footer-logo">
+          <!-- logo -->
+          <div class="footer-logo">
             <a href="/index.html" class="nav-logo">RjCode</a>
+          </div>
+
+          <!-- about -->
+          <div class="footer-section about">
+            <h2>TENTANG KAMI</h2>
+            <p>
+              RjCode adalah blog yang didedikasikan untuk menyediakan konten
+              yang berharga dan informatif tentang teknologi pengembangan web
+              seperti HTML, CSS, JavaScript, dan PHP...
+              <a href="/about us/about.html">Selengkapnya</a>
+            </p>
+          </div>
+
+          <!-- footerfollow -->
+          <div class="footer-section follow">
+            <h2>IKUTI KAMI</h2>
+            <div class="social-icons">
+              <a
+                href="https://www.tiktok.com/@rjcode02?is_from_webapp=1&sender_device=pc"
+                target="_blank"
+                ><i class="fab fa-tiktok"></i
+              ></a>
             </div>
-            
-             <!-- about -->
-              <div class="footer-section about">
-                <h2>TENTANG KAMI</h2>
-                <p>RjCode adalah blog yang didedikasikan untuk menyediakan konten yang berharga dan informatif tentang teknologi pengembangan web seperti HTML, CSS, JavaScript, dan PHP...
-                <a href="/about us/about.html">Selengkapnya</a></p>
-              </div>
-
-              <!-- footerfollow -->
-               <div class="footer-section follow">
-                <h2>IKUTI KAMI</h2>
-                <div class="social-icons">
-                    <a href="https://www.tiktok.com/@rjcode02?is_from_webapp=1&sender_device=pc" target="_blank"><i class="fab fa-tiktok"></i></a>
-                </div>
-               </div>
+          </div>
         </div>
-       </footer>
-       <!-- footerEnd -->
+      </footer>
+      <!-- footerEnd -->
 
-       <!-- copyrightStart -->
-        <div class="copyright">
-            <p>Copyright © 2026 <span>RJCode</span> All Rights Reserved</p>
+      <!-- copyrightStart -->
+      <div class="copyright">
+        <p>Copyright © 2026 <span>RJCode</span> All Rights Reserved</p>
 
-            <div class="copyright-links">
-                <a href="/about us/about.html">Tentang Kami</a>
-                <a href="/syarat&ketentuan/syaratketentuan.html">Syarat & Ketentuan</a>
-                <a href="/kebijakanprivasi/kebijakanprivasi.html">Kebijakan Privasi</a>
-                <a href="/hubungikami/hubungikami.html">Hubungi Kami</a>
-            </div>
+        <div class="copyright-links">
+          <a href="/about us/about.html">Tentang Kami</a>
+          <a href="/syarat&ketentuan/syaratketentuan.html"
+            >Syarat & Ketentuan</a
+          >
+          <a href="/kebijakanprivasi/kebijakanprivasi.html"
+            >Kebijakan Privasi</a
+          >
+          <a href="/hubungikami/hubungikami.html">Hubungi Kami</a>
         </div>
-        <!-- copyrightEnd -->
-        </div>
-    
+      </div>
+      <!-- copyrightEnd -->
+    </div>
+
     <script src="/script/script.js"></script>
-</body>
+  </body>
 </html>
